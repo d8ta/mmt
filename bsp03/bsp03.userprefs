@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Documents/C#/ue00_raudschus/bsp03/bsp03.cs">
+    <Files>
+      <File FileName="bsp03/Program.cs" Line="3" Column="14" />
+      <File FileName="../../Documents/C#/ue00_raudschus/bsp03/bsp03.cs" Line="3" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
