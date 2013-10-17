@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/volumOfCan/volumOfCan/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/volumOfCan/volumOfCan/bin/Debug/volumOfCan.exe.mdb
+/Users/danielraudschus/Projects/volumOfCan/volumOfCan/bin/Debug/volumOfCan.exe
+/Users/danielraudschus/Projects/volumOfCan/volumOfCan/obj/x86/Debug/volumOfCan.exe
+/Users/danielraudschus/Projects/volumOfCan/volumOfCan/obj/x86/Debug/volumOfCan.exe.mdb

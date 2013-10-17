@@ -29,36 +29,27 @@ namespace ue02_bsp01
 
 
 			// convert characters to integer variables 
-			int convertedChar1 = (int)char1;
-			int convertedChar2 = (int)char2;
-			int convertedChar3 = (int)char3;
+			int castChar1 = (int)char1;
+			int castChar2 = (int)char2;
+			int castChar3 = (int)char3;
 
 			// convert the numbers to characters
-			char convertedNum1 = (char)num1;
-			char convertedNum2 = (char)num2;
-			char convertedNum3 = (char)num3;
-			char convertedNum4 = (char)num4;
-			char convertedNum5 = (char)num5;
-			char convertedNum6 = (char)num6;
-
-			// TODO dont copy and paste (möglich??)
-
-			// print the converted characters to the console
-			Console.WriteLine ("The ASCII code for" );
+			char castNum1 = (char)num1;
+			char castNum2 = (char)num2;
+			char castNum3 = (char)num3;
+			char castNum4 = (char)num4;
+			char castNum5 = (char)num5;
+			char castNum6 = (char)num6;
 
 
-			Console.WriteLine ("The ASCII code for " + char1.ToString() + " is " + convertedChar1.ToString());
-			Console.WriteLine ("The ASCII code for " + char2.ToString() + " is " + convertedChar2.ToString());
-			Console.WriteLine ("The ASCII code for " + char3.ToString() + " is " + convertedChar3.ToString());
+			// print the cast characters to the console
+			Console.WriteLine ("You get the following ASCII codes: \n" +
+			                   "M = {0}, m = {1}, t = {2}", castChar1, castChar2, castChar3);
 
-			// print the converted numbers to the console
-			Console.WriteLine ("The character for the number " + num1.ToString() + " is " + convertedNum1.ToString());
-			Console.WriteLine ("The character for the number " + num2.ToString() + " is " + convertedNum2.ToString());
-			Console.WriteLine ("The character for the number " + num3.ToString() + " is " + convertedNum3.ToString());
-			Console.WriteLine ("The character for the number " + num4.ToString() + " is " + convertedNum4.ToString());
-			Console.WriteLine ("The character for the number " + num5.ToString() + " is " + convertedNum5.ToString());
-			Console.WriteLine ("The character for the number " + num6.ToString() + " is " + convertedNum6.ToString());
 
+			// print the cast numbers to the console
+			Console.WriteLine ("The character for the numbers are \n" +
+			                   "83 = {0}, 117 = {1}, 112 = {2}, 101 = {3}, 114 = {4}, 33 = {5}", castNum1, castNum2, castNum3, castNum4, castNum5, castNum6);
 		}
-	}
+	}	 
 }

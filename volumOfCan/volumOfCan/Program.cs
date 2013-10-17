@@ -9,13 +9,13 @@ namespace volumOfCan
 			/* Schreibe ein Programm, das die Fullmenge eines liegenden Kreiszylinders berechnet (Formel, siehe Wikipedia).
 			 * Eingabe: L (Länge), r (Radius), h (Fullhohe). Teste das Programm mit den Werten einer Limonaden-,
 			 * Energy-Drink-, Bierdose, etc. Protokolliere deine Tests, indem du die Konsolenausgabe als Kommentar im Quellcode speicherst.
-			 * Verwende großzugig Hilfsvariablen fur Zwischenergebnisse, um dieU bersicht zu bewahren.
+			 * Verwende großzugig Hilfsvariablen fur Zwischenergebnisse, um die Übersicht zu bewahren.
 			 */ 
 
 			// Variables for length, radius and filling height
-			double length = 1 ;
-			double radius = 1 ;
-			double fillingHeight = 1 ;
+			double length = 100 ;
+			double radius = 25 ;
+			double fillingHeight = 10 ;
 
 			// Calculation for the can with the following formula: 
 			// V = r^2 * L (arccos (r-h / r) - (r-h) wurzel 2rh-h^2 / r^2)
@@ -24,7 +24,7 @@ namespace volumOfCan
 			double volume = (radius * radius * length) * (Math.Acos((radius - fillingHeight) / radius) - (radius - fillingHeight) * root);
 
 			// print the volume to the console
-			Console.WriteLine("Volume of the can: " + volume);
+			Console.WriteLine("Volume of the can: " + (volume / 1000));
 		}
 	}
 }

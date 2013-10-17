@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/11annabelle/11annabelle/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/11annabelle/11annabelle/bin/Debug/11annabelle.exe.mdb
+/Users/danielraudschus/Projects/11annabelle/11annabelle/bin/Debug/11annabelle.exe
+/Users/danielraudschus/Projects/11annabelle/11annabelle/obj/x86/Debug/11annabelle.exe
+/Users/danielraudschus/Projects/11annabelle/11annabelle/obj/x86/Debug/11annabelle.exe.mdb

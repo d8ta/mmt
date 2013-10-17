@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/methods/methods/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/methods/methods/bin/Debug/methods.exe.mdb
+/Users/danielraudschus/Projects/methods/methods/bin/Debug/methods.exe
+/Users/danielraudschus/Projects/methods/methods/obj/x86/Debug/methods.exe
+/Users/danielraudschus/Projects/methods/methods/obj/x86/Debug/methods.exe.mdb

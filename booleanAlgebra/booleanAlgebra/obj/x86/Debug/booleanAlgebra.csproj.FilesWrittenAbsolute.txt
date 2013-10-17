@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/booleanAlgebra/booleanAlgebra/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/booleanAlgebra/booleanAlgebra/bin/Debug/booleanAlgebra.exe.mdb
+/Users/danielraudschus/Projects/booleanAlgebra/booleanAlgebra/bin/Debug/booleanAlgebra.exe
+/Users/danielraudschus/Projects/booleanAlgebra/booleanAlgebra/obj/x86/Debug/booleanAlgebra.exe
+/Users/danielraudschus/Projects/booleanAlgebra/booleanAlgebra/obj/x86/Debug/booleanAlgebra.exe.mdb
