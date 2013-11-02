@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/bsp15/bsp15/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/bsp15/bsp15/bin/Debug/bsp15.exe.mdb
+/Users/danielraudschus/Projects/bsp15/bsp15/bin/Debug/bsp15.exe
+/Users/danielraudschus/Projects/bsp15/bsp15/obj/x86/Debug/bsp15.exe
+/Users/danielraudschus/Projects/bsp15/bsp15/obj/x86/Debug/bsp15.exe.mdb

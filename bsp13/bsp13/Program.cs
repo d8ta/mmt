@@ -30,7 +30,7 @@ namespace bsp13
 			                   "You have to guess the number until you get a hit! Good luck .. ");
 
 			// loop and counter the loop
-			int counter = 0;
+			int counter = 1;  // TODO: user a bool like: bool isFinished;
 			int uNumber = 0;
 			while (uNumber != randomNum) {
 
@@ -38,27 +38,31 @@ namespace bsp13
 				String userNum = Console.ReadLine ();
 				int uNum = int.Parse (userNum);
 
-
-				if (uNum >= 1000 && uNum <= 1) {
+				if (uNum > 1000 && uNum < 1) {
 					Console.WriteLine ("your number has to be between 1 - 1000");
 					userNum = Console.ReadLine ();
 					uNum = int.Parse (userNum);
-				} else {
-			
-					// if usernumber is a hit
-					if (uNum == randomNum) {
-						Console.WriteLine ("you WIN! You needed " + counter.ToString() + " tries");
-						break;
-					} else if (uNum < randomNum) {
-						Console.WriteLine ("your guess is to low! Try again.");
-						counter++;
-					} else if (uNum > randomNum) {
-						Console.WriteLine ("Your guess is to high! Try again.");
-						counter++;
-					}
-			
-				}ölkölkölklö
+
+				} else if (uNum < randomNum && uNum > 0) {
+					Console.WriteLine ("your guess is to low! Try again.");
+					counter++;
+
+				} else if (uNum > randomNum && uNum < 1001) {
+					Console.WriteLine ("Your guess is to high! Try again.");
+					counter++;
+
+				} else if (uNum == randomNum) {
+					Console.WriteLine ("you WIN! You needed " + counter.ToString () + " tries");
+				
+				} else if (uNum < 0) {
+					Console.WriteLine ("your number has to be between 1 - 1000");
+
+				} else if (uNum > 1000) {
+					Console.WriteLine ("your number has to be between 1 - 1000");
+				}
+
+				}
 			}
 		}
 	}
-}
+

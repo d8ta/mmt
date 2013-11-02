@@ -31,12 +31,12 @@ namespace bsp10
 
 			const int MONTH_THIRTY_ONE = 31;
 			const int MONTH_THIRTY = 30;
+			const int FEB = 29;
 			const int LEAP_FEB = 28; 
 
-			//TODO if statement for month
 
 			// if statement
-			if (year % 4 == 0 || year % 100 != 0 || year % 400 == 0) {
+			if (year % 4 == 0 || year % 100 != 0 && year % 400 == 0) {
 
 				if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
 					Console.WriteLine ("The " + month.ToString() + ". month in " + year.ToString() + " have " + MONTH_THIRTY_ONE.ToString() + " days.");
@@ -48,11 +48,14 @@ namespace bsp10
 
 			} else {
 
-				if (month == 1 || month == 3 || month == 5 || month ==7 || month == 8 || month == 10 || month == 12) {
-					Console.WriteLine ("The " + month.ToString() + ". month in " + year.ToString() + " have " + MONTH_THIRTY_ONE.ToString() + " days.");
-			} else {
-					Console.WriteLine ("The " + month + ". month in " + year.ToString() + " have " + MONTH_THIRTY.ToString() + " days.");
+				if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+					Console.WriteLine ("The " + month.ToString () + ". month in " + year.ToString () + " have " + MONTH_THIRTY_ONE.ToString () + " days.");
+				} else if (month == 2) {
+					Console.WriteLine ("The " + month.ToString() + ". month in " + year.ToString () + " have " + FEB.ToString () + " days.");
+				} else {
+					Console.WriteLine ("The " + month.ToString() + ". month in " + year.ToString () + " have " + MONTH_THIRTY.ToString () + " days.");
 				}
+			
 			}
 		
 		}

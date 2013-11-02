@@ -1,30 +1,29 @@
 using System ;
 class MethodDemo
 {
-	/*  i.e.
-	static void silly ( int i, int j)
+
+	static void addOneToRefParam (ref int i)
+
 	{
-		Console.WriteLine ( "i is : " + i.ToString() + " and j is: " + j.ToString());
-	}
-	public static void Main ()
-	{
-		silly ( 155, 3 ) ;
-		silly ( 33, 78 ) ;
-	}
-	 */
-
-
-	static void powerOfTwo (double x, double y){
-
-		double powerXtoY = x * y;
-
-		Console.WriteLine(x.ToString() + " to the power of " + y.ToString() + " is " + powerXtoY.ToString());
+		i = i + 5;
+		Console.WriteLine ( "i is : " + i ) ;
 	}
 
 	public static void Main () {
 	
-		powerOfTwo (5, 5);
-		powerOfTwo (125, 12345);
+		int test = 75 ;
+		addOneToRefParam(ref test);
+		Console.WriteLine ( "test is : " + test ) ;
+
+		/* Die Ausgabe lautet:
+		 *  "i is : 21" -> addOneToParam(test) ruft die Methode auf und berechnet sie mit test (20) d.h. test = test + 1 = 20;
+		 * 
+		 * 	"test is : 20" -> ruft einfach die Variable Test auf, int test = 20;
+		 * 
+		 * Wenn wir -> static void addOneToParam (ref int i) benutzen und ei Methode mit -> adOneToParam(ref test); aufrufen ist das Ergebnis:
+		 * 				"i is : 21"
+		 * 				"test is : 21" 		-> nun wir eine referenzierung hergestellt
+		 */ 
 
 	}
 
@@ -32,4 +31,3 @@ class MethodDemo
 
 
 }
-

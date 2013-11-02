@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/secureInput/secureInput/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/secureInput/secureInput/bin/Debug/secureInput.exe.mdb
+/Users/danielraudschus/Projects/secureInput/secureInput/bin/Debug/secureInput.exe
+/Users/danielraudschus/Projects/secureInput/secureInput/obj/x86/Debug/secureInput.exe
+/Users/danielraudschus/Projects/secureInput/secureInput/obj/x86/Debug/secureInput.exe.mdb

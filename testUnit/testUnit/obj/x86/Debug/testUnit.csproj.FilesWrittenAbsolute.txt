@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/testUnit/testUnit/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/testUnit/testUnit/bin/Debug/testUnit.exe.mdb
+/Users/danielraudschus/Projects/testUnit/testUnit/bin/Debug/testUnit.exe
+/Users/danielraudschus/Projects/testUnit/testUnit/obj/x86/Debug/testUnit.exe
+/Users/danielraudschus/Projects/testUnit/testUnit/obj/x86/Debug/testUnit.exe.mdb
