@@ -16,8 +16,13 @@ namespace bsp18
 		public static void Main (string[] args)
 		{
 
-			Console.WriteLine ( potenz (2 , 10) ) ;
+			Console.WriteLine ("Basis:");
+			double basis = double.Parse (Console.ReadLine ());
+			Console.WriteLine ("Basis:");
+			double exponent = double.Parse (Console.ReadLine ());
 
+			double result = potenz (basis, exponent);
+			Console.WriteLine (result);
 		} 
 		// end of Main
 
@@ -27,13 +32,28 @@ namespace bsp18
 
 			double result = 1;
 
-			for ( double i = 0; i < exponent ; i ++ ) {
+			if (exponent < 0) {
+			
+				exponent = exponent * (-1);
+				for (double i = 0; i < exponent; i ++) {
+
+					result = result * basis; 
+
+				} 	result = 1 / result;
+
+			}
+			else 
+			{
+				for ( double i = 0; i < exponent ; i ++ ) {
 
 				result = result * basis; 
-
+			
 			} 
-			return result;
-		}   
-
+			
+			}return result;
 	}
+
+
 }
+}
+
