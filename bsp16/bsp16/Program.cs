@@ -44,7 +44,6 @@ namespace bsp16
 				for (int counter = 0; counter * counter <= userNum; counter ++) {
 				
 						sum = sum + (counter * counter);
-
 				} 
 			}
 

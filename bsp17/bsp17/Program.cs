@@ -18,27 +18,35 @@ namespace bsp17
 		{
 
 			// call userInput and printPrimeFactor
-			Console.WriteLine(printPrimeFactor ( 80 ));
+			Console.WriteLine( "type in a number an the programm gives back all primenumbers existing in your number" );
+			int userNum = int.Parse (Console.ReadLine ());
+			printPrimeFactor (userNum);
 
 		}
 
-		public static int printPrimeFactor ( int userNum ) {
+		public static void printPrimeFactor ( int userNum ) {
 		
-			for ( int counter = 2; counter <= userNum; counter ++ ) {
+			for ( int counter = 2; counter < userNum;) {
 
 				if (userNum >= 2) {
 				
 					if (userNum % counter == 0) {
 					
-						Console.WriteLine ( counter );
+						userNum = userNum / counter;
+						Console.Write ( counter + "*");
 					
 					
+					} else {
+					
+						counter ++;
+
 					}
+
 				
 				} 
 
 			}
-			return userNum;
+
 	}
 }
 }

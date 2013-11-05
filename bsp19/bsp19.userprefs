@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="bsp16/Program.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="bsp19/Program.cs">
     <Files>
-      <File FileName="bsp16/Program.cs" Line="46" Column="39" />
+      <File FileName="bsp19/Program.cs" Line="34" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="bsp16" expanded="True">
+          <Node name="bsp19" expanded="True">
             <Node name="Program.cs" selected="True" />
           </Node>
         </State>
