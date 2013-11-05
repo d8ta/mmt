@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/ue02_bsp01/ue02_bsp01/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/ue02_bsp01/ue02_bsp01/bin/Debug/ue02_bsp01.exe.mdb
+/Users/danielraudschus/Projects/ue02_bsp01/ue02_bsp01/bin/Debug/ue02_bsp01.exe
+/Users/danielraudschus/Projects/ue02_bsp01/ue02_bsp01/obj/x86/Debug/ue02_bsp01.exe
+/Users/danielraudschus/Projects/ue02_bsp01/ue02_bsp01/obj/x86/Debug/ue02_bsp01.exe.mdb

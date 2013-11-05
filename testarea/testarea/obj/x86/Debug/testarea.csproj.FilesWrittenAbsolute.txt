@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/testarea/testarea/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/testarea/testarea/bin/Debug/testarea.exe.mdb
+/Users/danielraudschus/Projects/testarea/testarea/bin/Debug/testarea.exe
+/Users/danielraudschus/Projects/testarea/testarea/obj/x86/Debug/testarea.exe
+/Users/danielraudschus/Projects/testarea/testarea/obj/x86/Debug/testarea.exe.mdb
