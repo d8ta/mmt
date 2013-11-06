@@ -1,11 +1,11 @@
 /* 1310601027, fhs36118
  * Daniel Raudschus
- * ueo3 bsp18
+ * ueo3 bsp19
  * */
 
 using System;
 
-namespace bsp18
+namespace bsp19
 {
 	class MainClass
 	{

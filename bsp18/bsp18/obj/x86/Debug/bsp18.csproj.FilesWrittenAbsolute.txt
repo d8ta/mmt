@@ -1,5 +1,0 @@
-/Users/danielraudschus/Projects/bsp18/bsp18/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
-/Users/danielraudschus/Projects/bsp18/bsp18/bin/Debug/bsp18.exe.mdb
-/Users/danielraudschus/Projects/bsp18/bsp18/bin/Debug/bsp18.exe
-/Users/danielraudschus/Projects/bsp18/bsp18/obj/x86/Debug/bsp18.exe
-/Users/danielraudschus/Projects/bsp18/bsp18/obj/x86/Debug/bsp18.exe.mdb

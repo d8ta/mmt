@@ -28,39 +28,56 @@ namespace bsp15
 
 	class MainClass
 	{
+
 		public static void Main (string[] args)
 		{
-				isPrime ( generatePrime(2) );	
 
-		}
+			for (int counter = 0; counter <= 100; counter ++) 
+			{ 
+
+				int resultNum = ( generatePrime (counter) );
+				if (isPrime (generatePrime(counter))) 
+				{
+					Console.WriteLine("p(" + counter + ") = " + resultNum + " is prime!");
+				} 
+				else
+				{
+					Console.WriteLine("p(" + counter + ") = " + resultNum + " is not prime!");
+				}
+
+			}
+
+		} // end of main
+
+
 
 
 		// write the generatePrime()function
-		public static int generatePrime( int genNum )
+		public static int generatePrime( int num )
 		{
-			genNum = (((genNum * genNum) + genNum) + 41);
-			Console.Write ("P(" + ")" + " = " + genNum);
+			int genNum = (((num * num) + num) + 41);
 			return genNum;
-		} 
+
+		} // end of function
+
+
 
 
 		// implement isPrime function to check the formular
 		public static bool isPrime( int eNum )
 		{
-			for ( int counter = 1; counter < 100; counter ++ ) 
+			for (int counter = 2; counter < eNum; counter ++) 
 			{
-				if (eNum % counter == 0) {
-					Console.WriteLine ( " is Prime!" );
+				if (eNum % counter == 0) 
+				{
 					return false;
-				} else {
-					Console.WriteLine( " is not Prime" );
 				}
 			}
 
 			return true; 
-		}
+		} // end of function
 
-		// TODO for loop inside the Main!
+
 
 	}
 }

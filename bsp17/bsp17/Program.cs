@@ -1,8 +1,13 @@
+/* 1310601027, fhs36118
+ * Daniel Raudschus
+ * ueo3 bsp17
+ * */
+
 using System;
 
 namespace bsp17
 {
-	class MainClass
+	class MainClass  // TODO Ergebnisse stimmen nicht, letzte zahl wird nicht angezeigt!
 	{
 
 		/* 17. (2P) Schreibe eine Methode printPrimeFactors, die zu einer eingegebenen Zahl die Zerlegung in Primfaktoren ausgibt.
@@ -18,31 +23,26 @@ namespace bsp17
 		{
 
 			// call userInput and printPrimeFactor
-			Console.WriteLine( "type in a number an the programm gives back all primenumbers existing in your number" );
+			Console.WriteLine( "type in a number an the programm gives back all\nprimenumbers existing in your number");
 			int userNum = int.Parse (Console.ReadLine ());
 			printPrimeFactor (userNum);
-
 		}
 
-		public static void printPrimeFactor ( int userNum ) {
-		
-			for ( int counter = 2; counter < userNum;) {
-
-				if (userNum >= 2) {
-				
-					if (userNum % counter == 0) {
-					
+		public static void printPrimeFactor (int userNum) 
+		{
+			for (int counter = 2; counter < userNum;) 
+			{
+				if (userNum >= 2) 
+				{
+					if (userNum % counter == 0) 
+					{
 						userNum = userNum / counter;
-						Console.Write ( counter + "*");
-					
-					
-					} else {
-					
+						Console.Write (counter + " * ");
+					} 
+					else 
+					{
 						counter ++;
-
 					}
-
-				
 				} 
 
 			}
