@@ -19,7 +19,7 @@ namespace bsp14
 	{
 		public static void Main (string[] args)
 		{
-			if (isPrime (2)) {
+			if (isPrime (16)) {
 				Console.WriteLine ("Prime!");
 			} else {
 				Console.WriteLine ("Not Prime!");
