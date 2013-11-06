@@ -1,3 +1,8 @@
+/* 1310601027, fhs36118
+ * Daniel Raudschus
+ * ueo3 bsp18
+ * */
+
 using System;
 
 namespace bsp18
@@ -5,9 +10,12 @@ namespace bsp18
 	class MainClass
 	{
 
-		/*	(2) Schreibe ein Programm, das mithilfe einer selbstgeschriebenen Schleife (nicht mithilfe einer C#- Funktion) eine Potenz mit beliebiger Basis und ganzzahligem Exponenten ausgeben kann: also an, fu ̈r beliebiges a und ganzzahliges n. Basis und Exponent werden vom Benutzer eingegeben.
-			•BenutzezurBerechnung1eineFunktionpotenzmitentsprechendenParameternundRu ̈ckgabewert. • ZurWiederholung:fu ̈reineZahlan ista·a·a·...·a,wobeidasan-MalalsFaktorauftritt(n≥1). • Fu ̈r n < 0 ist der Kehrwert zu bilden (a−n = 1/an).
-			• Achtung: a0 = 1!!!
+		/*	(2) Schreibe ein Programm, das mithilfe einer selbstgeschriebenen Schleife (nicht mithilfe einer C#- Funktion) eine Potenz 
+		 * 	mit beliebiger Basis und ganzzahligem Exponenten ausgeben kann: also an, für beliebiges a und ganzzahliges n. Basis und Exponent werden vom Benutzer eingegeben.
+		 * 		•Benutze zur Berechnung eine Funktion potenz mit entsprechenden Parametern und Rückgabewert.
+		 * 		• Zur Wiederholung: für eine Zahl a^n ist a·a·a·...·a, wobei das a n- Mal als Faktor auftritt (n≥1).
+		 * 		• Für n < 0 ist der Kehrwert zu bilden (a−n = 1/an).
+		 * 		• Achtung: a0 = 1!!!
 		*/
 
 
@@ -15,14 +23,14 @@ namespace bsp18
 		// Main function
 		public static void Main (string[] args)
 		{
-
+			Console.WriteLine ("Type in a Basis and a Exponent.\nThe programm will calculate the correct number for you\n");
 			Console.WriteLine ("Basis:");
 			double basis = double.Parse (Console.ReadLine ());
-			Console.WriteLine ("Basis:");
+			Console.WriteLine ("Exponent:");
 			double exponent = double.Parse (Console.ReadLine ());
 
 			double result = potenz (basis, exponent);
-			Console.WriteLine (result);
+			Console.WriteLine (basis + "^" + exponent + " = " + result);
 		} 
 		// end of Main
 
@@ -39,7 +47,7 @@ namespace bsp18
 
 					result = result * basis; 
 
-				} 	result = 1 / result;
+				} 	result = 1 / result; // kehrwert
 
 			}
 			else 
