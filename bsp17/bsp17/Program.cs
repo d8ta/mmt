@@ -30,14 +30,14 @@ namespace bsp17
 
 		public static void printPrimeFactor (int userNum) 
 		{
-			for (int counter = 2; counter < userNum;) 
+			for (int counter = 2; counter <= userNum;) 
 			{
 				if (userNum >= 2) 
 				{
 					if (userNum % counter == 0) 
 					{
 						userNum = userNum / counter;
-						Console.Write (counter + " * ");
+						Console.Write (counter + " ");
 					} 
 					else 
 					{
@@ -47,6 +47,6 @@ namespace bsp17
 
 			}
 
-	}
+		}
 }
 }
