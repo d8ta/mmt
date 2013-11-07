@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/bsp20/bsp20/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/bsp20/bsp20/bin/Debug/bsp20.exe.mdb
+/Users/danielraudschus/Projects/bsp20/bsp20/bin/Debug/bsp20.exe
+/Users/danielraudschus/Projects/bsp20/bsp20/obj/x86/Debug/bsp20.exe
+/Users/danielraudschus/Projects/bsp20/bsp20/obj/x86/Debug/bsp20.exe.mdb
