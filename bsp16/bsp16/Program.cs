@@ -7,7 +7,7 @@ using System;
 
 namespace bsp16
 {
-	class MainClass			// TODO wert ist falsch... Summe ist falsch!!! 
+	class MainClass	
 	{
 
 		/* (1P) Berechne die Summe aller Quadratzahlen zwischen 0 und einer eingegebenen Zahl mit Hilfe einer while-Schleife.
