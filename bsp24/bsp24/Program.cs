@@ -22,8 +22,18 @@ namespace bsp24
 		// start Main
 		public static void Main (string[] args)
 		{
-			// TODO implement user input via terminal
-			printChessboard(16);
+			Console.WriteLine ("Type in a number and the program will show\n" +
+				"your a chessboard graphic with your number^2\n");
+			int userInput = int.Parse (Console.ReadLine ());
+
+			Console.WriteLine ("Now choose your symbols you want to see in the graphic\n" +
+				"(for example symbol X and symbol O...)\n" +
+				"First Symbol:");
+			string symbol_O = (Console.ReadLine ());
+			Console.WriteLine ("Second Symbol:");
+			string symbol_X = (Console.ReadLine ());
+
+			printChessboard(userInput, symbol_O, symbol_X);
 		}
 		// end Main
 
@@ -31,7 +41,7 @@ namespace bsp24
 
 
 		// start function
-		public static void printChessboard (int userNum)
+		public static void printChessboard (int userNum, string symbol_O, string symbol_X)
 		{
 			// print lines (amount of userNum)
 			for (int counter = 0; counter < userNum; counter ++) {
@@ -43,9 +53,9 @@ namespace bsp24
 					if (symbolCounter % 2 != 0) {
 						// set non-even counternumbers = X
 						if (counter % 2 != 0) {
-							Console.Write ("O");
+							Console.Write (symbol_O);
 						} else {
-							Console.Write ("X");
+							Console.Write (symbol_X);
 						}
 					} 
 					// if line is even set even counternumbers = O
@@ -53,14 +63,15 @@ namespace bsp24
 					{
 						// set non-even counternumbers = O
 						if (counter % 2 != 0) {
-							Console.Write ("X");
+							Console.Write (symbol_X);
 						} else {
-							Console.Write ("O");
+							Console.Write (symbol_O);
 						}
 					}
 				}
 			}
 		}
 		// end of function
+
 	}
 }
