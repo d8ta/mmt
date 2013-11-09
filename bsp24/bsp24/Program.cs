@@ -23,7 +23,7 @@ namespace bsp24
 		public static void Main (string[] args)
 		{
 			// TODO implement user input via terminal
-			printChessboard(4);
+			printChessboard(16);
 		}
 		// end Main
 
@@ -40,7 +40,7 @@ namespace bsp24
 				// print symbols (amount of userNum)
 				for (int symbolCounter = 0; symbolCounter < userNum; symbolCounter ++) {
 					// if line non-even  
-					if (userNum % 2 != 0) {
+					if (symbolCounter % 2 != 0) {
 						// set non-even counternumbers = X
 						if (counter % 2 != 0) {
 							Console.Write ("O");
