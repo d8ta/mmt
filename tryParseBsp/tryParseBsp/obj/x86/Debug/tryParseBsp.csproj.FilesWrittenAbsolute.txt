@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/tryParseBsp/tryParseBsp/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/tryParseBsp/tryParseBsp/bin/Debug/tryParseBsp.exe.mdb
+/Users/danielraudschus/Projects/tryParseBsp/tryParseBsp/bin/Debug/tryParseBsp.exe
+/Users/danielraudschus/Projects/tryParseBsp/tryParseBsp/obj/x86/Debug/tryParseBsp.exe
+/Users/danielraudschus/Projects/tryParseBsp/tryParseBsp/obj/x86/Debug/tryParseBsp.exe.mdb
