@@ -1,13 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="bsp27/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="arrayBspTut/Program.cs">
     <Files>
-      <File FileName="bsp27/Program.cs" Line="46" Column="8" />
+      <File FileName="arrayBspTut/Program.cs" Line="23" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="bsp27" expanded="True">
+          <Node name="arrayBspTut" expanded="True">
             <Node name="Program.cs" selected="True" />
           </Node>
         </State>

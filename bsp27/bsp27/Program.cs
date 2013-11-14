@@ -1,5 +1,5 @@
 
-using System;
+using System;		// TODO: Falscheingaben korrigieren; Wininformation prüfen
 
 namespace bsp27
 {
@@ -23,61 +23,181 @@ namespace bsp27
 		static int rowOne = 0;
 		static int rowTwo = 0;
 		static int rowThree = 0;
-
-
+		static String name1 = "";
+		static String name2 = "";
 
 		// start of function Main
 		public static void Main (string[] args)
 		{
-			Console.WriteLine("We play NIM, lets start the game\n" +
-				"This is the startconfiguration");
+			Console.WriteLine("We play NIM, lets start the game!\n");
 
-
-			// ask about the names 
-			Console.WriteLine ("Please give in the name of player one:");
-			String nameOne = Console.ReadLine ();
-			Console.WriteLine ("Please give in the name of player two:");
-			String nameTwo = Console.ReadLine ();
-
-			Console.WriteLine ("\n Now set the amount of matches for each stack\n" +
-				"Set the matches for the first stack (advice: set it to 1)");
-			// first stack
-			rowOne = checkUserInput (0, int.MaxValue);
-
-			Console.WriteLine ("\n Set the matches for the second stack (advice: set it to 2)");
-			// first stack
-			rowTwo = checkUserInput (0, int.MaxValue);
-
-			Console.WriteLine ("\n Set the matches for the second stack (advice: set it to 3)");
-			// first stack
-			rowThree = checkUserInput (0, int.MaxValue);
-
+			// collect the playernames
+			names ();
+			Console.Clear ();
+			// call function setup to ask about the names and stacks
+			setup ();		
+			Console.Clear ();
 			// call the boards and matches
-			showBoard (rowOne);
-			showBoard (rowTwo);
-			showBoard (rowThree);
+			rowsAndStacks ();
 
-			// first turn
-			Console.WriteLine ("Player " + nameOne + ", your turn. Choose the row and the amount of matches you want to remove\n" +
-			                   "start bye choosing the row:");
-			int chooseRow = int.Parse (Console.ReadLine());
-			turn (Console.ReadLine(chooseRow))
-			int removeMatches = int.Parse (Console.ReadLine());
-
-
+			// call the playrounds
+			rounds ();
 		}
 		// end of Main
 
-
-
-		// function turn
-		static int turn (int row)
+		// show all stacks
+		static void rowsAndStacks ()
 		{
-			if (row == 3 )
+			showBoard (rowOne);
+			showBoard (rowTwo);
+			showBoard (rowThree);
+		}
+
+		// function rounds
+		static void rounds ()
+		{
+			bool isOk = true;
+			do {
+				turnPlayer1 ();
+				if (rowOne <= 1 && rowTwo <= 1 && rowThree <= 1)				{
+					isOk = false;
+					Console.WriteLine("\n" + name1 + " WINS!!");
+					break;
+				}
+				turnPlayer2 ();
+				if (rowOne <= 1 && rowTwo <= 1 && rowThree <= 1)
+				{
+					isOk = false;
+					Console.WriteLine("\n" + name2 + " WINS!!");
+					break;
+				}
+			
+			} while (isOk == true); 
+		}
+		// end of function
+
+
+		// function name
+		static void names ()
+		{
+			Console.WriteLine ("Please give in the name of player one:");
+			name1 = Console.ReadLine ();
+			Console.WriteLine ("Please give in the name of player two:");
+			name2 = Console.ReadLine ();
+
+		} 
+		// end of function
+
+
+
+
+		// function setup
+		static void setup ()
+		{
+			Console.WriteLine ("Now set the amount of matches for each stack\n" +
+		                   "Set the matches for the first stack (i.e. 3)");
+			// first stack
+			rowOne = checkUserInput (0, int.MaxValue);
+
+			Console.WriteLine ("Set the matches for the second stack (i.e. 4)\n");
+			// second stack
+			rowTwo = checkUserInput (0, int.MaxValue);
+
+			Console.WriteLine ("\n Set the matches for the second stack (i.e. 5)\n");
+			// third stack
+			rowThree = checkUserInput (0, int.MaxValue);
+		}
+		// end of function
+
+
+
+
+
+
+		// function turnPlayer1
+		static void turnPlayer1 () 
+		{
+			Console.WriteLine ("\n\n" + name1 + " it is your turn. Choose the row and the amount of matches\n" +
+				"you want to remove\n" +
+			                   "what is your row?");
+			int chooseRow = checkUserInput (1, 3);
+
+			Console.WriteLine("how many matches do you want to remove?");
+			int removeMatches = checkUserInput (1, int.MaxValue);
+
+			switch (chooseRow) 
 			{
-				rowThree = rowThree - match;
-			} return row;
- 		}
+				case 1:
+				rowOne -= removeMatches;
+				break;
+
+				case 2:
+				rowTwo -= removeMatches;
+				break;
+
+				case 3:
+				rowThree -= removeMatches;
+				break;
+			}
+
+			if (removeMatches > rowOne || removeMatches > rowTwo || removeMatches > rowThree) 
+			{
+				Console.WriteLine ("To high!!!");
+			}
+
+			// show new stacks
+			showBoard (rowOne);
+			showBoard (rowTwo);
+			showBoard (rowThree);
+		}
+		// end of function
+
+
+
+
+
+		
+		// function turnPlayer2
+		static void turnPlayer2 () 
+		{
+			Console.WriteLine ("\n\n" + name2 + " it is your turn. Choose the row and the amount of matches\n" +
+			                   "you want to remove\n" +
+			                   "what is your row?");
+			int chooseRow = checkUserInput (1, 3);
+
+			Console.WriteLine("how many matches do you want to remove?");
+			int removeMatches = checkUserInput (1, int.MaxValue);
+
+			switch (chooseRow) 
+			{
+				case 1:
+				rowOne -= removeMatches;
+				break;
+
+				case 2:
+				rowTwo -= removeMatches;
+				break;
+
+				case 3:
+				rowThree -= removeMatches;
+				break;
+			}
+
+			if (removeMatches > rowOne || removeMatches > rowTwo || removeMatches > rowThree) 
+			{
+				Console.WriteLine ("To high!!!");
+			}
+
+
+			// show new stacks
+			showBoard (rowOne);
+			showBoard (rowTwo);
+			showBoard (rowThree);
+		}
+		// end of function
+
+
+
 
 
 
@@ -103,6 +223,9 @@ namespace bsp27
 
 
 
+
+
+
 		// function showBoard
 		static int showBoard (int stack)
 		{
@@ -114,43 +237,5 @@ namespace bsp27
 		}
 		// end of function
 
-
-
-
 	}
 }
-
-
-
-
-/* switch statement
-		switch (		selection)
-		{
-			case 1 :
-			stackOne ();
-			break ;
-			case 2 :
-			stackTwo () ;
-			break ;
-			case 3 :
-			stackThree () ;
-			break ;
-			default :
-			Console.WriteLine ( "please type in a row and a number") ;
-			break ;
-		} 
-
-
-		// Pyramide
-		static int printBoard ( int match )
-		{
-			for (int counter = 0; counter <= match; counter ++)
-			{
-				Console.WriteLine (" ");
-				for (int matchcounter = 0; matchcounter < counter; matchcounter++)
-				{
-					Console.Write ("I");
-				}
-			} return match;
-		} */
-
