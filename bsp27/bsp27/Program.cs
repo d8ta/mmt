@@ -1,5 +1,5 @@
 
-using System;		// TODO: Falscheingaben korrigieren; Wininformation prüfen
+using System;		// TODO: Falscheingaben korrigieren;
 
 namespace bsp27
 {
@@ -38,20 +38,19 @@ namespace bsp27
 			setup ();		
 			Console.Clear ();
 			// call the boards and matches
-			rowsAndStacks ();
+			showBoard (rowOne);
+			showBoard (rowTwo);
+			showBoard (rowThree);
 
 			// call the playrounds
 			rounds ();
 		}
 		// end of Main
 
-		// show all stacks
-		static void rowsAndStacks ()
-		{
-			showBoard (rowOne);
-			showBoard (rowTwo);
-			showBoard (rowThree);
-		}
+
+
+
+
 
 		// function rounds
 		static void rounds ()
@@ -59,16 +58,16 @@ namespace bsp27
 			bool isOk = true;
 			do {
 				turnPlayer1 ();
-				if (rowOne <= 1 && rowTwo <= 1 && rowThree <= 1)				{
+				if (rowOne <= 0 && rowTwo <= 0 && rowThree <= 0)				{
 					isOk = false;
-					Console.WriteLine("\n" + name1 + " WINS!!");
+					Console.WriteLine("\n" + name2 + " WINS!!");
 					break;
 				}
 				turnPlayer2 ();
 				if (rowOne <= 1 && rowTwo <= 1 && rowThree <= 1)
 				{
 					isOk = false;
-					Console.WriteLine("\n" + name2 + " WINS!!");
+					Console.WriteLine("\n" + name1 + " WINS!!");
 					break;
 				}
 			
@@ -125,6 +124,14 @@ namespace bsp27
 			Console.WriteLine("how many matches do you want to remove?");
 			int removeMatches = checkUserInput (1, int.MaxValue);
 
+			if (removeMatches >= rowOne || removeMatches >= rowTwo || removeMatches >= rowThree) 
+			{
+				Console.WriteLine ("\n\n\t\tTo high, try again");
+				turnPlayer1 ();
+			} else 
+			{
+		
+
 			switch (chooseRow) 
 			{
 				case 1:
@@ -139,10 +146,6 @@ namespace bsp27
 				rowThree -= removeMatches;
 				break;
 			}
-
-			if (removeMatches > rowOne || removeMatches > rowTwo || removeMatches > rowThree) 
-			{
-				Console.WriteLine ("To high!!!");
 			}
 
 			// show new stacks
@@ -158,36 +161,34 @@ namespace bsp27
 
 		
 		// function turnPlayer2
-		static void turnPlayer2 () 
+		static void turnPlayer2 ()
 		{
 			Console.WriteLine ("\n\n" + name2 + " it is your turn. Choose the row and the amount of matches\n" +
-			                   "you want to remove\n" +
-			                   "what is your row?");
+			"you want to remove\n" +
+			"what is your row?");
 			int chooseRow = checkUserInput (1, 3);
 
-			Console.WriteLine("how many matches do you want to remove?");
+			Console.WriteLine ("how many matches do you want to remove?");
 			int removeMatches = checkUserInput (1, int.MaxValue);
-
-			switch (chooseRow) 
+			if (removeMatches >= rowOne || removeMatches >= rowTwo || removeMatches >= rowThree) {
+				Console.WriteLine ("\n\n\t\tTo high, try again");
+				turnPlayer2 ();
+			} else 
 			{
+				switch (chooseRow) {
 				case 1:
-				rowOne -= removeMatches;
-				break;
+					rowOne -= removeMatches;
+					break;
 
 				case 2:
-				rowTwo -= removeMatches;
-				break;
+					rowTwo -= removeMatches;
+					break;
 
 				case 3:
-				rowThree -= removeMatches;
-				break;
+					rowThree -= removeMatches;
+					break;
+				}
 			}
-
-			if (removeMatches > rowOne || removeMatches > rowTwo || removeMatches > rowThree) 
-			{
-				Console.WriteLine ("To high!!!");
-			}
-
 
 			// show new stacks
 			showBoard (rowOne);
