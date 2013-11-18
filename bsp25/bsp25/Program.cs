@@ -66,24 +66,26 @@ namespace bsp25
 		static void hourglass (int n)
 		{
 			// part 1
-			for (int lineCounter = n; lineCounter > 0; lineCounter--) 
+			for (int lineCounter = 0; lineCounter < n; lineCounter++) 
 			{
-				Console.WriteLine(" ");
+				Console.WriteLine("");
 			for (int counter = 0; counter <= lineCounter; counter++) 
 				{
 					Console.Write (" ");
 				}
 				for (int starCounter = n; starCounter > lineCounter; starCounter--) 
 				{
-					if (starCounter == 0)
-					{
-						Console.Write("#");
-					}
+						Console.Write("*");
+							if (starCounter == 0)
+							{
+						Console.Write("*");
+							}
 
-					else
-					{
-						Console.Write("@@");
-					}
+							else
+							{
+						Console.Write(" ");
+							}
+
 				}
 			}
 
@@ -97,15 +99,16 @@ namespace bsp25
 				}
 				for (int starCounter = 0; starCounter <= lineCounter; starCounter++)
 				{
-					if (starCounter == 0)
-					{
-						Console.Write("*");
-					}
+					Console.Write("*");
+						if (starCounter == 0)
+						{
+						Console.Write(" ");
+						}
 
-					else
-					{
-						Console.Write("**");
-					}
+						else
+						{
+						Console.Write(" ");
+						}
 				}
 
 			}
