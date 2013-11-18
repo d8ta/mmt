@@ -46,11 +46,11 @@ namespace bsp24
 
 
 		// start function
-		public static void printChessboard (int userNum, string symbol_O, string symbol_X)
+		static void printChessboard (int userNum, string symbol_O, string symbol_X)
 		{
 			// print lines (amount of userNum)
 			for (int counter = 0; counter < userNum; counter ++) {
-				Console.WriteLine ();
+				Console.WriteLine ("");
 
 				// print symbols (amount of userNum)
 				for (int symbolCounter = 0; symbolCounter < userNum; symbolCounter ++) {

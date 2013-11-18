@@ -132,20 +132,20 @@ namespace bsp27
 			{
 		
 
-			switch (chooseRow) 
-			{
-				case 1:
-				rowOne -= removeMatches;
-				break;
+				switch (chooseRow) 
+				{
+					case 1:
+					rowOne -= removeMatches;
+					break;
 
-				case 2:
-				rowTwo -= removeMatches;
-				break;
+					case 2:
+					rowTwo -= removeMatches;
+					break;
 
-				case 3:
-				rowThree -= removeMatches;
-				break;
-			}
+					case 3:
+					rowThree -= removeMatches;
+					break;
+				}
 			}
 
 			// show new stacks
@@ -225,7 +225,7 @@ namespace bsp27
 
 
 
-
+	
 
 		// function showBoard
 		static int showBoard (int stack)
