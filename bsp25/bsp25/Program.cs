@@ -83,7 +83,7 @@ namespace bsp25
 
 							else
 							{
-						Console.Write(" ");
+						Console.Write("*");
 							}
 
 				}
@@ -102,12 +102,12 @@ namespace bsp25
 					Console.Write("*");
 						if (starCounter == 0)
 						{
-						Console.Write(" ");
+						Console.Write("");
 						}
 
 						else
 						{
-						Console.Write(" ");
+						Console.Write("*");
 						}
 				}
 
