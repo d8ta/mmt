@@ -4,18 +4,6 @@
     <Files>
       <File FileName="../../Documents/C#/ue03_raudschus/bsp20/bsp20.cs" Line="84" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="bsp20" expanded="True">
-            <Node name="Program.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

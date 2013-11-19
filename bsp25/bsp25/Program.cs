@@ -16,8 +16,7 @@ namespace bsp25
 		// function main
 		public static void Main (string[] args)
 		{
-
-			hourglass (6);
+			hourglass (6, 4);
 		}
 		// end of main
 
@@ -58,73 +57,50 @@ namespace bsp25
 			return intUserInput;
 		}
 		// end of function
-
-
-		// function amountOfHourglass
-		static void amountOfHourglass ()
-		{
-		
-		}
+	
 
 
 		// start of function
-		static void hourglass (int b)
+		static void hourglass (int b, int n)
 		{
 			// part 1
-			for (int lineCounter = 0; lineCounter < b; lineCounter++) 
-			{
-				Console.WriteLine("");
-			for (int counter = 0; counter <= lineCounter; counter++) 
-				{
-					Console.Write (" ");
-				}
-				for (int starCounter = b; starCounter > lineCounter; starCounter--) 
-				{
-					Console.Write("*");
-					if (starCounter == 0)
-					{
-						Console.Write("");
+			for (int amount = 0; amount < n; amount++) {
+
+				for (int lineCounter = 0; lineCounter < b; lineCounter++) {
+					Console.WriteLine ("");
+					for (int counter = 0; counter <= lineCounter; counter++) {
+						Console.Write (" ");
 					}
-					else
-					{
-						Console.Write(" ");
+					for (int starCounter = b; starCounter > lineCounter; starCounter--) {
+						Console.Write ("*");
+						if (starCounter == 0) {
+							Console.Write ("");
+						} else {
+							Console.Write (" ");
+						}
 					}
 				}
-			}
 
 			// part 2
-			for (int lineCounter = 0; lineCounter < b; lineCounter++)
-			{
-				Console.WriteLine(" ");
-				for (int counter = b; counter > lineCounter; counter--)
-				{
-					Console.Write(" ");
-				}
-				for (int starCounter = 0; starCounter <= lineCounter; starCounter++)
-				{
-					Console.Write("*");
-					if (starCounter == 1)
-						{
-						Console.Write(" ");
+				for (int lineCounter = 0; lineCounter < b; lineCounter++) {
+					Console.WriteLine (" ");
+					for (int counter = b; counter > lineCounter; counter--) {
+						Console.Write (" ");
+					}
+					for (int starCounter = 0; starCounter <= lineCounter; starCounter++) {
+						Console.Write ("*");
+						if (starCounter == 1) {
+							Console.Write (" ");
+						} else {
+							Console.Write (" ");
 						}
+					}
 
-						else
-						{
-						Console.Write(" ");
-						}
 				}
-
 			}
 		}
 		//end of function
 
-
-
-		// function amountOfHourGlasses
-		static void amountOfHourGlasses()
-		{
-	
-		}
 
 	}
 }
