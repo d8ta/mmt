@@ -10,13 +10,14 @@ namespace bsp25
 	class MainClass
 	{
 
-		static int b = 0;
-		static int n = 0;
+		//		static int n = 0;
+		//		static int b = 0;
 
 		// function main
 		public static void Main (string[] args)
 		{
-			hourglass (4);
+
+			hourglass (6);
 		}
 		// end of main
 
@@ -24,17 +25,17 @@ namespace bsp25
 
 
 		// function userInput
-		static void userInput () 
+		static void userInput (int b, int n) 
 		{
 			Console.WriteLine ("Type in n and m.\n" +
 			                   "n is the amoung of hourglasses and b is the width of each hourglass:\n\n" +
 			                   "Start with n (amount of hourglasses):");
-			n = checkUserInput(1, int.MaxValue);
+			b = checkUserInput(1, int.MaxValue);
 
 			Console.WriteLine ("Now type in b (width of hourglass):");
-			b = checkUserInput(1, int.MaxValue);
+			n = checkUserInput(1, int.MaxValue);
 		}
-		// end of function
+		// end of function 
 
 
 
@@ -59,55 +60,57 @@ namespace bsp25
 		// end of function
 
 
-
+		// function amountOfHourglass
+		static void amountOfHourglass ()
+		{
+		
+		}
 
 
 		// start of function
-		static void hourglass (int n)
+		static void hourglass (int b)
 		{
 			// part 1
-			for (int lineCounter = 0; lineCounter < n; lineCounter++) 
+			for (int lineCounter = 0; lineCounter < b; lineCounter++) 
 			{
 				Console.WriteLine("");
 			for (int counter = 0; counter <= lineCounter; counter++) 
 				{
 					Console.Write (" ");
 				}
-				for (int starCounter = n; starCounter > lineCounter; starCounter--) 
+				for (int starCounter = b; starCounter > lineCounter; starCounter--) 
 				{
-						Console.Write("*");
-							if (starCounter == 0)
-							{
-						Console.Write("*");
-							}
-
-							else
-							{
-						Console.Write("*");
-							}
-
+					Console.Write("*");
+					if (starCounter == 0)
+					{
+						Console.Write("");
+					}
+					else
+					{
+						Console.Write(" ");
+					}
 				}
 			}
 
 			// part 2
-			for (int lineCounter = 0; lineCounter < n; lineCounter++)
+			for (int lineCounter = 0; lineCounter < b; lineCounter++)
 			{
 				Console.WriteLine(" ");
-				for (int counter = n; counter > lineCounter; counter--)
+				for (int counter = b; counter > lineCounter; counter--)
 				{
 					Console.Write(" ");
 				}
 				for (int starCounter = 0; starCounter <= lineCounter; starCounter++)
 				{
 					Console.Write("*");
-						if (starCounter == 0)
+					if (starCounter == 1)
 						{
-						Console.Write("");
+						Console.Write(" ");
 						}
 
 						else
 						{
-						Console.Write("*");
+						Console.Write(" ");
 						}
 				}
 
