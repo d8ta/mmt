@@ -4,48 +4,28 @@ namespace bsp26
 {
 	class MainClass
 	{
-		const double PI = 3.14159;
-		static double output = 0;
-		static int n = 0;
-		static int m = 0;
+		const double PI = 3.14;  // TODO: 3.141592 = 355/113
+		static double output;
+		static double n;
+		static double m;
 
 		public static void Main (string[] args)
 		{
-			approximationOfPi();
+			approximationOfPi ();
 		}
 		// function for the approximation of Pi
 		static void approximationOfPi ()
 		{
-			for (m = 1; m <= 10000; m++) {
-				for (n = 1; n <= 500; n++) {
-					if (output != PI) {
-						
-					} else {
-						Console.WriteLine (output);
+			for (m = 0; m <= 10000; m++) {
+
+					for (n = 0; n <= 10000; n++) {
+						output = n / m;
+						if (output == PI) {
+							Console.WriteLine (n + "  " + m);
+						}
 					}
+
 				} 
 			}
 		}
-		// end of function
-
-		/*
-		// function loop through N
-		static int loopN ()
-		{
-			int n;
-			for (n = 1; n <= 1000; n++) {
-			}
-			return n;
-		}
-		// end of function
-		// function loop trough M
-		static int loopM ()
-		{
-			int m;
-			for (m = 1; m <= 1000; m++) {
-			}
-			return m;
-		}
-		// end of function */
 	}
-}
