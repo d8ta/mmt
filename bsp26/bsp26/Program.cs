@@ -4,7 +4,8 @@ namespace bsp26
 {
 	class MainClass
 	{
-		const double PI = 3.14;  // TODO: 3.141592 = 355/113
+		const double PI = 3.1415;
+		// TODO: 3.141592 = 355/113
 		static double output;
 		static double n;
 		static double m;
@@ -18,14 +19,14 @@ namespace bsp26
 		{
 			for (m = 0; m <= 10000; m++) {
 
-					for (n = 0; n <= 10000; n++) {
-						output = n / m;
-						if (output == PI) {
-							Console.WriteLine (n + "  " + m);
-						}
+				for (n = 0; n <= 10000; n++) {
+					output = n / m;
+					if (output == PI) {
+						Console.WriteLine (n + "  " + m);
 					}
+				}
 
-				} 
-			}
+			} 
 		}
 	}
+}
