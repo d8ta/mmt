@@ -49,31 +49,31 @@ class Hourglass
 	}
 
 	// SANDUHR
-	static void hourGlass(uint size, uint i)
+	static void hourGlass(uint sizeOfHourglas, uint amountOfHourglass)
 	{
 		// OBEN
-		for (uint line = size; line > 0; line--)
+		for (uint lineCounter = sizeOfHourglas; lineCounter > 0; lineCounter--) // zählt die Linien ab z.b. 4 Lines
 		{
-			for (int count = 1; count <= i; count++)
+			for (int counter = 1; counter <= amountOfHourglass; counter++)		// zählt wieviele Hourglas dargestellt werden sollen
 			{
-				for (int blank = 1; blank <= (size - line); blank++)
+				for (int counter2 = 1; counter2 <= (sizeOfHourglas - lineCounter); counter2++)
 				{
-					Console.Write(" ");
+					Console.Write(" ");				// setzt einen Teil der symbolplätze auf " "
 				}
-				for (int star = 0; star <= (line * 2 - 1); star++)
+				for (int star = 0; star <= (lineCounter * 2 - 1); star++) // fügt die sterne ein
 				{
-					if (star % 2 == 0)
+					if (star % 2 == 0)			// sorgt für einen abstand Platz zwischen den Sternen
 					{
-						Console.Write("*");
+						Console.Write("*");		// gerade zeilen kriegen den stern
 					}
 					else
 					{
-						Console.Write(" ");
+						Console.Write(" ");		// ungerade eine leerzeile
 					}
 				}
-				for (int blank = 1; blank <= (size - line); blank++)
+				for (int blank = 1; blank <= (sizeOfHourglas - lineCounter); blank++)
 				{
-					Console.Write(" ");
+					Console.Write("#");	
 				}
 			}
 			Console.Write("\n");
@@ -81,11 +81,11 @@ class Hourglass
 		}
 
 		// UNTEN
-		for (uint line = 2; line <= size; line++)
+		for (uint line = 2; line <= sizeOfHourglas; line++)
 		{
-			for (int count = 1; count <= i; count++)
+			for (int count = 1; count <= amountOfHourglass; count++)
 			{
-				for (int blank = 1; blank <= (size - line); blank++)
+				for (int blank = 1; blank <= (sizeOfHourglas - line); blank++)
 				{
 					Console.Write(" ");
 				}
@@ -100,7 +100,7 @@ class Hourglass
 						Console.Write(" ");
 					}
 				}
-				for (int blank = 1; blank <= (size - line); blank++)
+				for (int blank = 1; blank <= (sizeOfHourglas - line); blank++)
 				{
 					Console.Write(" ");
 				}

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bsp26", "bsp26\bsp26.csproj", "{33E53B1E-9894-4967-8F01-516D3B39297B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33E53B1E-9894-4967-8F01-516D3B39297B}.Debug|x86.ActiveCfg = Debug|x86
+		{33E53B1E-9894-4967-8F01-516D3B39297B}.Debug|x86.Build.0 = Debug|x86
+		{33E53B1E-9894-4967-8F01-516D3B39297B}.Release|x86.ActiveCfg = Release|x86
+		{33E53B1E-9894-4967-8F01-516D3B39297B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = bsp26\bsp26.csproj
+	EndGlobalSection
+EndGlobal

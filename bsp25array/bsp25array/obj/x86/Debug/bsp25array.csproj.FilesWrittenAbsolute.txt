@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/bsp25array/bsp25array/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/bsp25array/bsp25array/bin/Debug/bsp25array.exe.mdb
+/Users/danielraudschus/Projects/bsp25array/bsp25array/bin/Debug/bsp25array.exe
+/Users/danielraudschus/Projects/bsp25array/bsp25array/obj/x86/Debug/bsp25array.exe
+/Users/danielraudschus/Projects/bsp25array/bsp25array/obj/x86/Debug/bsp25array.exe.mdb

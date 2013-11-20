@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/hourglass/hourglass/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/hourglass/hourglass/bin/Debug/hourglass.exe.mdb
+/Users/danielraudschus/Projects/hourglass/hourglass/bin/Debug/hourglass.exe
+/Users/danielraudschus/Projects/hourglass/hourglass/obj/x86/Debug/hourglass.exe
+/Users/danielraudschus/Projects/hourglass/hourglass/obj/x86/Debug/hourglass.exe.mdb

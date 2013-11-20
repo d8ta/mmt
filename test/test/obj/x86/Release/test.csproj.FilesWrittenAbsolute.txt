@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/test/test/obj/x86/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/test/test/bin/Release/test.exe.mdb
+/Users/danielraudschus/Projects/test/test/bin/Release/test.exe
+/Users/danielraudschus/Projects/test/test/obj/x86/Release/test.exe
+/Users/danielraudschus/Projects/test/test/obj/x86/Release/test.exe.mdb
