@@ -49,13 +49,13 @@ namespace bsp27
 				turnPlayer1 ();
 				if (rowOne <= 0 && rowTwo <= 0 && rowThree <= 0) {
 					isOk = false;
-					Console.WriteLine ("\n" + name2 + " WINS!!");
+					Console.WriteLine ("\n" + name1 + " WINS!!");
 					break;
 				}
 				turnPlayer2 ();
-				if (rowOne <= 1 && rowTwo <= 1 && rowThree <= 1) {
+				if (rowOne <= 0 && rowTwo <= 0 && rowThree <= 0) {
 					isOk = false;
-					Console.WriteLine ("\n" + name1 + " WINS!!");
+					Console.WriteLine ("\n" + name2 + " WINS!!");
 					break;
 				}
 			
@@ -103,18 +103,18 @@ namespace bsp27
 
 		
 
-				switch (chooseRow) {
-				case 1:
-					rowOne -= removeMatches;
-					break;
+			switch (chooseRow) {
+			case 1:
+				rowOne -= removeMatches;
+				break;
 
-				case 2:
-					rowTwo -= removeMatches;
-					break;
+			case 2:
+				rowTwo -= removeMatches;
+				break;
 
-				case 3:
-					rowThree -= removeMatches;
-					break;
+			case 3:
+				rowThree -= removeMatches;
+				break;
 			}
 
 			// show new stacks

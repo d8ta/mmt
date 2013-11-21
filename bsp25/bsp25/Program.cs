@@ -50,16 +50,16 @@ namespace bsp25
 		static void hourglass (int b, int n)
 		{
 			// part 1
-			for (int lineCounter = b; lineCounter > 0; lineCounter--) { // zählt die Linien ab z.b. 4 Lines
-				for (int hgCounter = 1; hgCounter <= n; hgCounter++) {		// zählt wieviele Hourglas dargestellt werden sollen
+			for (int lineCounter = b; lineCounter > 0; lineCounter--) { 	// prints lines for the usernumber b
+				for (int hgCounter = 1; hgCounter <= n; hgCounter++) {		// counts up to usernumber n for the amount of hourglasses
 					for (int counter = 1; counter <= (b - lineCounter); counter++) {
-						Console.Write (" ");				// setzt einen Teil der symbolplätze auf " "
+						Console.Write (" ");								// set spaces
 					}
-					for (int starCounter = 0; starCounter <= (lineCounter * 2 - 1); starCounter++) { // fügt die sterne ein
-						if (starCounter % 2 == 0) {			// sorgt für einen Abstand Platz zwischen den Sternen
-							Console.Write ("*");		// gerade zeilen kriegen den stern
+					for (int starCounter = 0; starCounter <= (lineCounter * 2 - 1); starCounter++) { 	// prints the stars 
+						if (starCounter % 2 == 0) {													
+							Console.Write ("*");		// even number prints a star
 						} else {
-							Console.Write (" ");		// ungerade eine leerzeile
+							Console.Write (" ");		// uneven number prints a blank space
 						}
 					}
 					for (int space = 1; space <= (b - lineCounter); space++) {

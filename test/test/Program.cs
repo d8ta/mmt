@@ -1,115 +1,32 @@
-/*
-1310601030, fhs36121
-Michael Bunk
-ue03 bsp25
-*/
+// 1310601035, fhs36126
+// Franz Rest
+// ue03 bsp026
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Hourglass
+
+class Program
 {
-
-	// HAUPTPROGRAMM
-	static void Main()
+	static void PiApproximate(int Max)
 	{
-
-		Console.WriteLine("*** SANDUHR ***");
-
-		Console.Write("\n" + "Breite: ");
-		uint size = isValidValue();
-
-		Console.Write("\n" + "Anzahl: ");
-		uint input = isValidValue();
-
-		Console.Write("\n");
-		hourGlass(size, input);
-		Console.Write("\n");
-
+		Console.WriteLine("Brüche die PI bis zur 6ten Nachkommastelle ausgeben!");
+		for (double i = 0; i < Max; i++)
+		{
+			for (double j = 0; j < Max; j++)
+			{
+				if((i/j >= 3.141592) && (i/j <= 3.141593))
+					Console.WriteLine("{0} / {1} = {2,0:0.0000000}",i,j,i/j);
+			}
+		}
+		Console.WriteLine("PI = " + Math.PI);
 	}
-
-	// ABFRAGE GÜLTIGER WERT
-	static uint isValidValue()
+	static void Main(string[] args)
 	{
-		string stringInput;
-		uint result;
-		bool success = true;
-
-		do
-		{
-			if (!success)
-			{
-				Console.Write("Gib einen gültigen Wert ein: ");
-			}
-			stringInput = Console.ReadLine();
-			success = uint.TryParse(stringInput, out result);
-		}
-		while (!success);
-
-		return result;
+		PiApproximate(10000);
 	}
-
-	// SANDUHR
-	static void hourGlass(uint sizeOfHourglas, uint amountOfHourglass)
-	{
-		// OBEN
-		for (uint lineCounter = sizeOfHourglas; lineCounter > 0; lineCounter--) // zählt die Linien ab z.b. 4 Lines
-		{
-			for (int counter = 1; counter <= amountOfHourglass; counter++)		// zählt wieviele Hourglas dargestellt werden sollen
-			{
-				for (int counter2 = 1; counter2 <= (sizeOfHourglas - lineCounter); counter2++)
-				{
-					Console.Write(" ");				// setzt einen Teil der symbolplätze auf " "
-				}
-				for (int star = 0; star <= (lineCounter * 2 - 1); star++) // fügt die sterne ein
-				{
-					if (star % 2 == 0)			// sorgt für einen abstand Platz zwischen den Sternen
-					{
-						Console.Write("*");		// gerade zeilen kriegen den stern
-					}
-					else
-					{
-						Console.Write(" ");		// ungerade eine leerzeile
-					}
-				}
-				for (int blank = 1; blank <= (sizeOfHourglas - lineCounter); blank++)
-				{
-					Console.Write("#");	
-				}
-			}
-			Console.Write("\n");
-
-		}
-
-		// UNTEN
-		for (uint line = 2; line <= sizeOfHourglas; line++)
-		{
-			for (int count = 1; count <= amountOfHourglass; count++)
-			{
-				for (int blank = 1; blank <= (sizeOfHourglas - line); blank++)
-				{
-					Console.Write(" ");
-				}
-				for (int star = 0; star <= (line * 2 - 1); star++)
-				{
-					if (star % 2 == 0)
-					{
-						Console.Write("*");
-					}
-					else
-					{
-						Console.Write(" ");
-					}
-				}
-				for (int blank = 1; blank <= (sizeOfHourglas - line); blank++)
-				{
-					Console.Write(" ");
-				}
-			}
-			Console.Write("\n");
-		}
-
-	}
-
-
 }
 

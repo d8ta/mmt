@@ -24,9 +24,10 @@ namespace bsp24
 		// start Main
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Type in a number and the program will show\n" +
+			Console.WriteLine ("Type in a round number and the program will show\n" +
 			"your a chessboard graphic with your number^2\n");
-			int userInput = int.Parse (Console.ReadLine ());
+			int userInput = checkUserInput (1, int.MaxValue);
+			//	int userInput = int.Parse (Console.ReadLine ());
 
 			Console.WriteLine ("Now choose your symbols you want to see in the graphic\n" +
 			"(for example symbol X and symbol O...)\n" +
@@ -38,6 +39,26 @@ namespace bsp24
 			printChessboard (userInput, symbol_O, symbol_X);
 		}
 		// end Main
+
+		// check user input if it is a round number
+		static int checkUserInput (int min, int max)
+		{
+			bool inputIsRound;
+			int userInput;
+
+			do {
+				inputIsRound = int.TryParse (Console.ReadLine (), out userInput);
+
+				if ((inputIsRound == true) && (userInput >= min) && (userInput <= max) && (userInput % 2 == 0)) {
+					inputIsRound = true;
+				} else {
+					inputIsRound = false;
+					Console.WriteLine ("This value is invalid!");
+				}
+			} while (inputIsRound == false);
+			return userInput;
+		}
+		// end of function
 
 
 
