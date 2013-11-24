@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/bsp30/bsp30/obj/x86/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/bsp30/bsp30/bin/Release/bsp30.exe.mdb
+/Users/danielraudschus/Projects/bsp30/bsp30/bin/Release/bsp30.exe
+/Users/danielraudschus/Projects/bsp30/bsp30/obj/x86/Release/bsp30.exe
+/Users/danielraudschus/Projects/bsp30/bsp30/obj/x86/Release/bsp30.exe.mdb
