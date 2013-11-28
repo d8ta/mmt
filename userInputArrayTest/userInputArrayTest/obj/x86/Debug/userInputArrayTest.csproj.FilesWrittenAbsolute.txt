@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/userInputArrayTest/userInputArrayTest/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/userInputArrayTest/userInputArrayTest/bin/Debug/userInputArrayTest.exe.mdb
+/Users/danielraudschus/Projects/userInputArrayTest/userInputArrayTest/bin/Debug/userInputArrayTest.exe
+/Users/danielraudschus/Projects/userInputArrayTest/userInputArrayTest/obj/x86/Debug/userInputArrayTest.exe
+/Users/danielraudschus/Projects/userInputArrayTest/userInputArrayTest/obj/x86/Debug/userInputArrayTest.exe.mdb

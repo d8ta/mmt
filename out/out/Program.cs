@@ -1,6 +1,6 @@
 using System;
 
-namespace out
+namespace testingTheOut
 {
 	class MainClass
 	{

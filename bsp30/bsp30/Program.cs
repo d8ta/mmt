@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace bsp30
 {
@@ -14,32 +15,68 @@ namespace bsp30
 
 	class MainClass
 	{
-	
-		public static void Main (string[] args)
+		static double[] data; 
+
+		// main
+		static void Main (string[] args)
 		{
-			Console.WriteLine( SingleArray(5));
-		}
+			data = new double[6]
+			{2, 4, 6, 8, 10, 12};
+			Console.WriteLine("Summe: " + Summe());
+			Console.WriteLine("Durchschnitt: " + Durchschnitt());
+			Console.WriteLine("Maximum: " + Maximum());
+			Console.WriteLine("Minimum: " + Minimum());
+			Console.WriteLine("Standardabweichung: " + Standardabweichung());
+		} // end of main
+
+
+		// function for the sum
+		static double Summe()
+		{ 
+			double sum = 0;
+			for (int i = 0; i < data.Length; i++)
+				{
+					sum += data[i];
+				}
+			return sum;	
+		} // end of function
 
 
 
-
-
-		static int SingleArray (int n)
+		// function for average
+		static double Durchschnitt ()
 		{
-		// creates a new double array with slots from 0 - 9
-		double [] data = new double [10]; 
+			double average = Summe() / data.Length;
+			return average;
+		} // end of function
 
-			int i = 0;
-		// fill the array with data
-		for (n = 0; n < 10; n++) 
+
+
+		// function for max
+		static double Maximum()
 		{
-			i += 1;
-			data[n] = i;
-			} return i;
-		
+			double max = data.Max();
+			return max;
+		} // end of function
 
-		}
 
+
+		// function for min
+		static double Minimum()
+		{
+			double min = data.Min();
+			return min;
+		} // end of function
+
+
+
+		// function for standard deviation
+		static double Standardabweichung()
+		{ 
+			double average = Durchschnitt();
+			double sumOfSquares = data.Select(val => (val - average) * (val - average)).Sum();
+			double sd = Math.Sqrt(sumOfSquares / data.Length);
+			return sd;
+		} // end of function
 	} 
-	
 }

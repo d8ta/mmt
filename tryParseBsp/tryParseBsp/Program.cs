@@ -28,7 +28,7 @@ namespace tryParseBsp
 			i = 5;
 		} // end of methode
 
-		›
+
 
 		// Main starts here 
 		public static void Main (string[] args)
