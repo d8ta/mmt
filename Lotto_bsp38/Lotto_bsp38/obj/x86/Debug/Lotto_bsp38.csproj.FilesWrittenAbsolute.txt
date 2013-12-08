@@ -1,0 +1,5 @@
+/Users/danielraudschus/Documents/C#/Xamarin/Lotto_bsp38/Lotto_bsp38/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Documents/C#/Xamarin/Lotto_bsp38/Lotto_bsp38/bin/Debug/Lotto_bsp38.exe.mdb
+/Users/danielraudschus/Documents/C#/Xamarin/Lotto_bsp38/Lotto_bsp38/bin/Debug/Lotto_bsp38.exe
+/Users/danielraudschus/Documents/C#/Xamarin/Lotto_bsp38/Lotto_bsp38/obj/x86/Debug/Lotto_bsp38.exe
+/Users/danielraudschus/Documents/C#/Xamarin/Lotto_bsp38/Lotto_bsp38/obj/x86/Debug/Lotto_bsp38.exe.mdb

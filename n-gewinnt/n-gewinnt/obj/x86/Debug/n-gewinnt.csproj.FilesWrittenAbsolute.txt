@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/n-gewinnt/n-gewinnt/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/n-gewinnt/n-gewinnt/bin/Debug/n-gewinnt.exe.mdb
+/Users/danielraudschus/Projects/n-gewinnt/n-gewinnt/bin/Debug/n-gewinnt.exe
+/Users/danielraudschus/Projects/n-gewinnt/n-gewinnt/obj/x86/Debug/n-gewinnt.exe
+/Users/danielraudschus/Projects/n-gewinnt/n-gewinnt/obj/x86/Debug/n-gewinnt.exe.mdb

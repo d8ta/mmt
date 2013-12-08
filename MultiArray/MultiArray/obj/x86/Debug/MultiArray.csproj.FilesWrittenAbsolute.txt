@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/MultiArray/MultiArray/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/MultiArray/MultiArray/bin/Debug/MultiArray.exe.mdb
+/Users/danielraudschus/Projects/MultiArray/MultiArray/bin/Debug/MultiArray.exe
+/Users/danielraudschus/Projects/MultiArray/MultiArray/obj/x86/Debug/MultiArray.exe
+/Users/danielraudschus/Projects/MultiArray/MultiArray/obj/x86/Debug/MultiArray.exe.mdb

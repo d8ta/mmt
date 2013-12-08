@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/TryCatch/TryCatch/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/TryCatch/TryCatch/bin/Debug/TryCatch.exe.mdb
+/Users/danielraudschus/Projects/TryCatch/TryCatch/bin/Debug/TryCatch.exe
+/Users/danielraudschus/Projects/TryCatch/TryCatch/obj/x86/Debug/TryCatch.exe
+/Users/danielraudschus/Projects/TryCatch/TryCatch/obj/x86/Debug/TryCatch.exe.mdb

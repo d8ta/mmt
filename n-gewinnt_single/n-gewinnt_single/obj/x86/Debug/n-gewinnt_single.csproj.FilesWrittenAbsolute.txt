@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/n-gewinnt_single/n-gewinnt_single/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/n-gewinnt_single/n-gewinnt_single/bin/Debug/n-gewinnt_single.exe.mdb
+/Users/danielraudschus/Projects/n-gewinnt_single/n-gewinnt_single/bin/Debug/n-gewinnt_single.exe
+/Users/danielraudschus/Projects/n-gewinnt_single/n-gewinnt_single/obj/x86/Debug/n-gewinnt_single.exe
+/Users/danielraudschus/Projects/n-gewinnt_single/n-gewinnt_single/obj/x86/Debug/n-gewinnt_single.exe.mdb

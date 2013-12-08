@@ -1,0 +1,10 @@
+/Users/danielraudschus/Documents/C#/Xamarin/WürfelPoker_bsp39/WürfelPoker_bsp39/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Documents/C#/Xamarin/WürfelPoker_bsp39/WürfelPoker_bsp39/bin/Debug/WürfelPoker_bsp39.exe.mdb
+/Users/danielraudschus/Documents/C#/Xamarin/WürfelPoker_bsp39/WürfelPoker_bsp39/bin/Debug/WürfelPoker_bsp39.exe
+/Users/danielraudschus/Documents/C#/Xamarin/WürfelPoker_bsp39/WürfelPoker_bsp39/obj/x86/Debug/WürfelPoker_bsp39.exe
+/Users/danielraudschus/Documents/C#/Xamarin/WürfelPoker_bsp39/WürfelPoker_bsp39/obj/x86/Debug/WürfelPoker_bsp39.exe.mdb
+/Users/danielraudschus/Projects/WürfelPoker_bsp39/WürfelPoker_bsp39/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/WürfelPoker_bsp39/WürfelPoker_bsp39/bin/Debug/WürfelPoker_bsp39.exe.mdb
+/Users/danielraudschus/Projects/WürfelPoker_bsp39/WürfelPoker_bsp39/bin/Debug/WürfelPoker_bsp39.exe
+/Users/danielraudschus/Projects/WürfelPoker_bsp39/WürfelPoker_bsp39/obj/x86/Debug/WürfelPoker_bsp39.exe
+/Users/danielraudschus/Projects/WürfelPoker_bsp39/WürfelPoker_bsp39/obj/x86/Debug/WürfelPoker_bsp39.exe.mdb

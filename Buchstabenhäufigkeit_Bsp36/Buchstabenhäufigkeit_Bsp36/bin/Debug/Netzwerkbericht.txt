@@ -1,0 +1,223 @@
+
+
+LABORBERICHT
+
+
+Ivan Popovic, Stefan Niedermüller, Christoph Witzko, Daniel Raudschus
+November 2013
+Netzwerkbericht
+
+Grundnetzwerk Aufbauen
+a) In der ersten Aufgabe ging es darum ein einfach geroutetes Netzwerk aufzubauen.
+
+	- PC 17 - 20  wurde mit der gemeinsamen Switch verbunden.
+
+Anschliessend haben wir die manuelle Konfiguration der IP Adressen vorgenommen und die Verbindung mit dem Befehlt Ping überprüft.
+
+
+
+
+
+
+
+Begriffserklärung
+1. <ipconfig /all>
+
+
+
+
+
+
+
+
+
+
+
+
+Prüfen der IP Konfiguration über den Befehl <ipconfig /all> zeigt die Netzwerkkonfiguration aller Netzwerkadapter an. (IP Adresse/ Subnetzmaske / Standardgateway / DNS Server)
+
+2. <arp>
+
+Broadcast an alle angeschlossenen Geräte mit dem <arp> Befehlt
+arp bedeutet Adress Resolution Protocol und er möglich das Auflösen einer IP Adresse in eine MAC Adresse.
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. <netstat>
+
+netstat zeigt die offenen Ports und die aktiven Verbindungen an.
+
+
+
+
+
+
+
+
+
+
+4. <tracert>
+
+tracert zeigt die Hops zwischen Client (unser PC) und Server (Zieldomain bzw. die hinterlegte IP Adresse) an.
+
+
+
+
+
+
+
+5. DNS
+
+steht für Domain Name System und ermöglicht die Auflösung von Domainnamen (z.b. google.com) in IP Adressen.
+
+
+
+6. DHCP
+
+steht für Dynamic Host Configuration Protocol. Der DHCP  Server ist für die dynamische Vergabe von Netzwerkkonfigurationen (IP Adresse, Subnetzmaske, usw.) aller Klienten im Netzwerk zuständig. Eine manuelle Konfiguration ist nicht notwendig.
+
+
+Wireshark Part I
+Nach dem Start von Wireshark haben wir unseren Netzwerkadapter ausgewählt und den Sniffing-Vorgang gestartet. Danach haben wir nach den in der Angabe stehenden Protokollen gesucht.
+
+Broadcasts:
+Bei einem Broadcast wird das Datenpaket an alle Rechner/Klienten im Netzwerk gesendet. (Bsp.: ARP) In Wireshark steht anstatt der Zieladresse „Broadcast“
+
+ Tracert:
+
+
+
+
+
+
+
+1 * gw-fhsnet.fh-salzburg.ac.at (78.104.170.1) 1.446 ms 1.306 ms
+2 192.168.80.10 (192.168.80.10) 2.013 ms 1.688 ms 1.716 ms
+3 gigabitethernet9-7.sbg2.aco.net (193.171.20.73) 2.000 ms 2.099 ms 2.121 ms
+4 vlan342.wien21.aco.net (193.171.15.53) 8.249 ms 7.174 ms 7.014 ms
+5 vlan71.wien1.aco.net (193.171.23.17) 7.676 ms 7.507 ms 7.419 ms 
+6 tengige-0-0-0-3.core1.aco.net (193.171.23.98) 7.869 ms 7.732 ms 7.734 ms
+7 r98-bm.cesnet.cz (195.113.179.149) 14.352 ms 10.529 ms 11.438 ms 
+8 r100-r106.cesnet.cz (195.113.156.154) 13.976 ms 12.832 ms 12.808 ms
+9 r2-r93.cesnet.cz (195.113.157.70) 13.164 ms 12.921 ms 12.870 ms
+10 72.14.236.192 (72.14.236.192) 20.549 ms 20.987 ms 22.192 ms
+11 72.14.234.253 (72.14.234.253) 21.158 ms 21.091 ms 20.753 ms
+12 bud02s03-in-f23.1e100.net (173.194.39.151) 20.886 ms * 23.141 ms
+
+
+Die Ausgabe von T. zeigt an über welche Internetknotenpunkte das Datenpaket zu Google wandert.
+
+Welche IP Adressen und Port Nummern werden für die Kommunikation verwendet?
+
+
+
+Die Source IP ist: 193.170.141.118, der Port ist: 1828
+Die Destination IP lautet: 173.194.35.159, der Port ist: 80
+
+Bei einer HTTP Anfrage ist der Destinationport immer 80. Der Sourceport ändert sich bei jeder Anfrage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Analysieren sie den TCP Verbindungsaufbau
+
+
+TCP prüft ob das Datenpaket angekommen ist. Client und Server synchronisieren sich. Die Anfrage wird nach Erhalt beantwortet und die angeforderten Daten werden in TCP Segmenten unterteilt gesendet.
+
+TCP Flags sind Sitzungs-Befehle (Kommandos), die den Aufbau, den Erhalt und den Abbau/Abbruch der Sitzung kontrollieren.
+
+Die verschiedenen TCP-Flags sind:
+
+    SYN = Synchronize
+
+    ACK = Acknowledge
+
+    PSH = Push
+
+    URG = Urgent
+
+    FIN = Final
+
+    RST = Reset
+
+
+
+
+
+
+
+
+
+
+
+
+HTTP GET-Request
+
+
+Der GET Request holt die index.php von www.fh-salzbzrg.ac.at.
+
+
+
+
+
+Netzwerk Part II
+Die PC unserer Gruppe waren über die zugehörige Switch verbunden und PC 17 - 20 konnten sich untereinander erreichen.
+
+		- PC 17 - 20  untereinander via Hub verbunden
+		- Hub über Switch mit Netzwerk verbunden
+
+Um über das FH Netzwerk eine Verbindung ins Internet zu bekommen muss der Standard Gateway richtig konfiguriert sein. 
+
+
+FTP
+Wir haben eine Verbindung mit publish.fh-salzburg.ac.at aufgebaut und nach Benutzername und Passwort gesucht. Sowohl Benutzername als auch Passwort wurden protokolliert
+Bei den Source Ports der FTP Verbindung fällt auf das der HTTP Port immer 80 ist und der FTP Port immer 21.
+ DIR öffnet ein Direktor und öffnet weiterhin mit LCD einen lokalen Ordner. MDELETE löscht einen Ordner, MDIR erstellt einen neuen Ordner. PUT kopiert einen lokalen File und SEND sendet ihn zum Server. TRACE verfolgt den Weg den die Daten nehmen.
+
+
+Wireshark Vertiefung
+Unter dem Menüpunkt <Statistics> kann man die Statistik einsehen.
+Anschliessend haben wir mittels Filter den Mittschnitt auf unserer IP Adresse eingeschränkt. 
+
+			ip.addr == unsere IP
+
+Um die Anzeige weiter einzuschränken kann nach einzelnen Protokollen gefiltert werden 
+
+			ip.addr == meine  IP && icmp
+
+Paket Details:
+Welche Type- und Codewerte finden wir in einem Echo reply? 
+
+			Type: 0  /  Code: 0
+Abschliessende Tasks
+
+2. Welche IP Adresse tauche in den Mitschnitten auf:
+
+Beim Pingen finden wir als Scr Adresse unsere eigen IP und als Dst die IP Adresse des PC den wir angepingt haben.
+
+3. Welche Verschiedene Protokolle werden in Whireshark angezeigt: 
+
+ARP, ICMP, TCP, UDP, HTTP, TLS.
+
+5. Welche Typen Angaben sind zu finden
+ICMP, IPv4 und IPv6
+

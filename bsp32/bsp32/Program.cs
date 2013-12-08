@@ -11,7 +11,15 @@ namespace bsp31b
 		// main
 		static void Main (string[] args)
 		{
-			readInNumbersFile ();
+			try
+			{
+				readInNumbersFile();
+			}
+			catch  (Exception e)
+			{
+				Console.WriteLine ("File not Found " + e.Message);
+			}
+
 			Console.WriteLine("Summe: " + Summe());
 			Console.WriteLine("Durchschnitt: " + Durchschnitt());
 			Console.WriteLine("Maximum: " + Maximum());
@@ -20,16 +28,15 @@ namespace bsp31b
 		} // end of main
 
 
-		// readInNumbersCommandLine function
+		// readInNumbersFile function
 		static void readInNumbersFile()
 		{
-
-			try
-			{
-				string file = @"/Users/danielraudschus/Documents/numbers.txt";
+			string file = @"/Users/danielraudschus/Documents/numbers.txt";
 				StreamReader reader = new StreamReader(file);
+				// initialise array
 				int arrayLengthFromFile = int.Parse(reader.ReadLine());
 				data = new double[arrayLengthFromFile];
+				// error handling for wrong arralength
 
 				while (!reader.EndOfStream)
 				{
@@ -44,12 +51,8 @@ namespace bsp31b
 				{
 					Console.WriteLine(data[i]);
 				}
-			}
-			catch (Exception e) 
-			{
-				Console.WriteLine ("Falsche Eingabe " + e.Message);
-			}
-			} // end of function
+
+		} // end of function
 
 
 

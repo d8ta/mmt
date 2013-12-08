@@ -1,0 +1,5 @@
+/Users/danielraudschus/Documents/C#/Xamarin/Buchstabenhäufigkeit_Bsp36/Buchstabenhäufigkeit_Bsp36/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Documents/C#/Xamarin/Buchstabenhäufigkeit_Bsp36/Buchstabenhäufigkeit_Bsp36/bin/Debug/Buchstabenhäufigkeit_Bsp36.exe.mdb
+/Users/danielraudschus/Documents/C#/Xamarin/Buchstabenhäufigkeit_Bsp36/Buchstabenhäufigkeit_Bsp36/bin/Debug/Buchstabenhäufigkeit_Bsp36.exe
+/Users/danielraudschus/Documents/C#/Xamarin/Buchstabenhäufigkeit_Bsp36/Buchstabenhäufigkeit_Bsp36/obj/x86/Debug/Buchstabenhäufigkeit_Bsp36.exe
+/Users/danielraudschus/Documents/C#/Xamarin/Buchstabenhäufigkeit_Bsp36/Buchstabenhäufigkeit_Bsp36/obj/x86/Debug/Buchstabenhäufigkeit_Bsp36.exe.mdb

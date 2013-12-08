@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/TestingArrays/TestingArrays/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/TestingArrays/TestingArrays/bin/Debug/TestingArrays.exe.mdb
+/Users/danielraudschus/Projects/TestingArrays/TestingArrays/bin/Debug/TestingArrays.exe
+/Users/danielraudschus/Projects/TestingArrays/TestingArrays/obj/x86/Debug/TestingArrays.exe
+/Users/danielraudschus/Projects/TestingArrays/TestingArrays/obj/x86/Debug/TestingArrays.exe.mdb
