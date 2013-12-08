@@ -10,8 +10,7 @@ namespace WürfelPoker_bsp39
 		// Main
 		public static void Main (string[] args)
 		{
-			//PokerRound ();
-			RollingPlayerA ();
+			PokerRounds ();
 
 		} // Ende Main
 
@@ -26,58 +25,97 @@ namespace WürfelPoker_bsp39
 
 
 		// Spielrunde
-		//static int PokerRound (int SumA, int SumB)
-		//{
+		static void PokerRounds ()
+		{
+			//	for (int i = 0; i < 10; i++) 
+			//	{
+				RollingPlayerA ();
+				RollingPlayerB ();
+				// If Conditions für (a) - (e)
 
-		//}
+			//	}
+		}
+
+		// Vergleiche A und B
+		static int ComparePlayerRolls ()
+		{
+			int leer = 0;
+			return leer;
+		}
+
+
+
 
 		// PlayerA Rolling
-		static void RollingPlayerA ()
+		static int RollingPlayerA ()
 		{
-			int sumA;
-			Console.WriteLine ("Player A is rolling the dice 3x\n" +
+			int resultA = 0;
+			Console.WriteLine ("\nPlayer A is rolling the dice 3x\n" +
 				"the results is :");
 			int rolling1 = RandomGenerator (1, 6);
 			int rolling2 = RandomGenerator (1, 6);			
 			int rolling3 = RandomGenerator (1, 6);
-
 			// Fall (a) drei verschiedene Augenzahlen
 			if (rolling1 != rolling2 && rolling1 != rolling3 && rolling2 != rolling3) {
-				// Ruft Funkt. auf die, bei 3 verschiedenen Werten je Spieler dem mit der hörheren Summe einen Pkt. gibt
-				//SumOfThreeDiff ();
 				Console.WriteLine (rolling1);
 				Console.WriteLine (rolling2);
 				Console.WriteLine (rolling3);
-				Console.WriteLine ("\ndifferent cards");
-
+				Console.WriteLine ("\n three different cards");
+				resultA = 1;
 			}
-
 			// Fall (b) ein Paar
 			else if ((rolling1 == rolling2 && rolling1 !=rolling3) || (rolling1 == rolling3 && rolling1 != rolling2) || (rolling2 == rolling3 && rolling2 != rolling1)) {
-				// Ruft Funktion auf die Prüft welcher Spieler ein Pair hat und gibt diesem dann einen Pkt.
-				//Pairs (); // Fall (c)
 				Console.WriteLine (rolling1);
 				Console.WriteLine (rolling2);
 				Console.WriteLine (rolling3);
 				Console.WriteLine ("\n a pair");
-
+				resultA = 2;
 			}
-
 			// Fall (d) ein Triple
 			else if (rolling1 == rolling2 && rolling1 == rolling3 && rolling2 == rolling3) {
-				// Ruft Funktion auf die Prüft welcher Spieler ein Triple hat und gibt diesem dann einen Pkt.
-				//Triples (); // Fall (e)
 				Console.WriteLine (rolling1);
 				Console.WriteLine (rolling2);
 				Console.WriteLine (rolling3);
 				Console.WriteLine ("\n a triple");
-			}
+				resultA = 3;
+			} return resultA;
 
-			// Fehler
-			else 
-			{
-				Console.WriteLine ("Something went wrong!");
+		} // Ende PlayerA
+
+		// PlayerB Rolling
+		static int RollingPlayerB ()
+		{
+			int resultB = 0;
+			Console.WriteLine ("\nPlayer B is rolling the dice 3x\n" +
+				"the results is :");
+			int rolling1 = RandomGenerator (1, 6);
+			int rolling2 = RandomGenerator (1, 6);			
+			int rolling3 = RandomGenerator (1, 6);
+			// Fall (a) drei verschiedene Augenzahlen
+			if (rolling1 != rolling2 && rolling1 != rolling3 && rolling2 != rolling3) {
+				Console.WriteLine (rolling1);
+				Console.WriteLine (rolling2);
+				Console.WriteLine (rolling3);
+				Console.WriteLine ("\ndifferent cards");
+				resultB = 1;
 			}
-		}
+			// Fall (b) ein Paar
+			else if ((rolling1 == rolling2 && rolling1 !=rolling3) || (rolling1 == rolling3 && rolling1 != rolling2) || (rolling2 == rolling3 && rolling2 != rolling1)) {
+				Console.WriteLine (rolling1);
+				Console.WriteLine (rolling2);
+				Console.WriteLine (rolling3);
+				Console.WriteLine ("\n a pair");
+				resultB = 2;
+			}
+			// Fall (d) ein Triple
+			else if (rolling1 == rolling2 && rolling1 == rolling3 && rolling2 == rolling3) {
+				Console.WriteLine (rolling1);
+				Console.WriteLine (rolling2);
+				Console.WriteLine (rolling3);
+				Console.WriteLine ("\n a triple");
+				resultB = 3;
+			} return resultB;
+
+		} // Ende PlayerB
 	}
 }
