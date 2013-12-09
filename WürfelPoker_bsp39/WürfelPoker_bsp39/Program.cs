@@ -68,16 +68,19 @@ namespace WürfelPoker_bsp39
 					} else if (sumB > sumA) {
 						PlayerB += 1;
 					} else if (sumA == sumB) { // Wenn Gleiche Punktzahl dann bekommt keiner einen Punkt
+						PlayerB += 0;
+						PlayerA += 0;
 					}
-				} 
-				Console.WriteLine ("Player A has " + PlayerA + " Points\n" +
-					"Player B has " + PlayerB + " Points.");
-				if (PlayerA > PlayerB) {
 
-					Console.WriteLine ("Congradulations PlayerA, you won!");
-				} else {
-					Console.WriteLine ("Congradulations PlayerB, you won!");
-				}
+			}
+			} 
+			Console.WriteLine ("\n\t\aPlayer A has " + PlayerA + " Points\n" +
+				"\n\tPlayer B has " + PlayerB + " Points.");
+			if (PlayerA > PlayerB) {
+
+				Console.WriteLine ("\nCongradulations Player A, you won!");
+			} else {
+				Console.WriteLine ("\nCongradulations Player B, you won!");
 			}
 		}
 
@@ -93,24 +96,27 @@ namespace WürfelPoker_bsp39
 			int rolling3 = RandomGenerator (1, 6);
 			// Fall (a) drei verschiedene Augenzahlen
 			if (rolling1 != rolling2 && rolling1 != rolling3 && rolling2 != rolling3) {
-				Console.WriteLine ("\nA three different cards");
+				Console.WriteLine ("\nPlayer A  has three different eyes");
 				resultA = 1;
 				Console.WriteLine(sumA = rolling1 + rolling2 + rolling3);
 			}
 			// Fall (b) ein Paar
 			else if ((rolling1 == rolling2 && rolling1 !=rolling3) || (rolling1 == rolling3 && rolling1 != rolling2) || (rolling2 == rolling3 && rolling2 != rolling1)) {
-				Console.WriteLine ("\nA a pair");
+				Console.WriteLine ("\nPlayer A rolls a pair, nice one");
 				resultA = 2;
 				Console.WriteLine(sumA = rolling1 + rolling2 + rolling3);
 			}
 			// Fall (d) ein Triple
 			else if (rolling1 == rolling2 && rolling1 == rolling3 && rolling2 == rolling3) {
 
-				Console.WriteLine ("\nA a triple");
+				Console.WriteLine ("\nPlayer A rolls a triple... wohooo");
 				resultA = 3;
 				Console.WriteLine(sumA = rolling1 + rolling2 + rolling3);
 			} 
 			return resultA;
+
+	
+
 
 
 		} // Ende PlayerA
@@ -124,21 +130,27 @@ namespace WürfelPoker_bsp39
 			int rolling3 = RandomGenerator (1, 6);
 			// Fall (a) drei verschiedene Augenzahlen
 			if (rolling1 != rolling2 && rolling1 != rolling3 && rolling2 != rolling3) {
-				Console.WriteLine ("\nB three different cards");
+				Console.WriteLine ("\nPlayer B  has three different eyes");
 				resultB = 1;
 				Console.WriteLine(sumB = rolling1 + rolling2 + rolling3);
+				Console.WriteLine ("\n\n");
+
 			}
 			// Fall (b) ein Paar
 			else if ((rolling1 == rolling2 && rolling1 !=rolling3) || (rolling1 == rolling3 && rolling1 != rolling2) || (rolling2 == rolling3 && rolling2 != rolling1)) {
-				Console.WriteLine ("\nB a pair");
+				Console.WriteLine ("\nPlayer A rolls a pair, nice one");
 				resultB = 2;
 				Console.WriteLine(sumB = rolling1 + rolling2 + rolling3);
+				Console.WriteLine ("\n\n");
+
 			}
 			// Fall (d) ein Triple
 			else if (rolling1 == rolling2 && rolling1 == rolling3 && rolling2 == rolling3) {
-				Console.WriteLine ("\nB a triple");
+				Console.WriteLine ("\nPlayer A rolls a triple... wtf");
 				resultB = 3;
 				Console.WriteLine(sumB = rolling1 + rolling2 + rolling3);
+				Console.WriteLine ("\n\n");
+
 			} 
 			return resultB;
 		} // Ende PlayerB
