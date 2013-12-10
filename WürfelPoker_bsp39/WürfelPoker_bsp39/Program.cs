@@ -15,10 +15,34 @@ namespace WürfelPoker_bsp39
 		// Main
 		public static void Main (string[] args)
 		{
-			PokerRounds ();
+			Runtime ();
 		} // Ende Main
 
+		// Runden des Spiels
+		static void Runtime()
+		{
+			for (int i = 0; i < 9; i++) {
+				PokerRound ();
+			}
+			while (PlayerA == PlayerB || PlayerA - PlayerB < 2) {
+				PokerRound ();
+			} 	
+			CompareThePlayers ();
 
+
+		}
+
+		// Gewinnfeststellung
+		static void CompareThePlayers ()
+		{
+			Console.WriteLine ("\n\t\aPlayer A has " + PlayerA + " Points\n" +
+				"\n\tPlayer B has " + PlayerB + " Points.");
+			if (PlayerA > PlayerB) {
+				Console.WriteLine ("\nCongratulations Player A, you won!");
+			} else {
+				Console.WriteLine ("\nCongratulations Player B, you won!");
+			}
+		}
 
 		// Zufallswürfel Generator
 		static int RandomGenerator (int min, int max)
@@ -28,59 +52,48 @@ namespace WürfelPoker_bsp39
 		} // Ende
 
 		// Spielrunde
-		static void PokerRounds ()
+		static void PokerRound ()
 		{
-			for (int i = 0; i < 10; i++) 
+			int caseA = RollingPlayerA ();
+			int caseB = RollingPlayerB ();
+			// If Conditions für (a) - (e)
+			if (caseA == 1 && caseB == 1)
 			{
-				int caseA = RollingPlayerA ();
-				int caseB = RollingPlayerB ();
-				// If Conditions für (a) - (e)
-				if (caseA == 1 && caseB == 1)
-				{
-					if (sumA > sumB) {
-						PlayerA += 1;
-					} else if (sumB > sumA) {
-						PlayerB += 1;
-					} else if (sumA == sumB) { // Wenn Gleiche Punktzahl dann bekommt keiner einen Punkt
-						PlayerB += 0;
-						PlayerA += 0;
-					}
-				} else if (caseA == 1 && caseB == 2 || caseB == 3) { 
-					PlayerB += 1;
-				} else if (caseB == 1 && caseA == 2 || caseA == 3) {
+				if (sumA > sumB) {
 					PlayerA += 1;
-				} else if (caseA == 2 && caseB == 2) {
-					if (sumA > sumB) {
-						PlayerA += 1;
-					} else if (sumB > sumA) {
-						PlayerB += 1;
-					} else if (sumA == sumB) { // Wenn Gleiche Punktzahl dann bekommt keiner einen Punkt
-						PlayerB += 0;
-						PlayerA += 0;
-					}
-				} else if (caseA == 2 && caseB == 3) {
+				} else if (sumB > sumA) {
 					PlayerB += 1;
-				} else if (caseB == 2 && caseA == 3) {
+				} else if (sumA == sumB) { // Wenn Gleiche Punktzahl dann bekommt keiner einen Punkt
+					PlayerB += 0;
+					PlayerA += 0;
+				}
+			} else if (caseA == 1 && caseB == 2 || caseB == 3) { 
+				PlayerB += 1;
+			} else if (caseB == 1 && caseA == 2 || caseA == 3) {
+				PlayerA += 1;
+			} else if (caseA == 2 && caseB == 2) {
+				if (sumA > sumB) {
 					PlayerA += 1;
-				} else if (caseA == 3 && caseB == 3) {
-					if (sumA > sumB) {
-						PlayerA += 1;
-					} else if (sumB > sumA) {
-						PlayerB += 1;
-					} else if (sumA == sumB) { // Wenn Gleiche Punktzahl dann bekommt keiner einen Punkt
-						PlayerB += 0;
-						PlayerA += 0;
-					}
+				} else if (sumB > sumA) {
+					PlayerB += 1;
+				} else if (sumA == sumB) { // Wenn Gleiche Punktzahl dann bekommt keiner einen Punkt
+					PlayerB += 0;
+					PlayerA += 0;
+				}
+			} else if (caseA == 2 && caseB == 3) {
+				PlayerB += 1;
+			} else if (caseB == 2 && caseA == 3) {
+				PlayerA += 1;
+			} else if (caseA == 3 && caseB == 3) {
+				if (sumA > sumB) {
+					PlayerA += 1;
+				} else if (sumB > sumA) {
+					PlayerB += 1;
+				} else if (sumA == sumB) { // Wenn Gleiche Punktzahl dann bekommt keiner einen Punkt
+					PlayerB += 0;
+					PlayerA += 0;
+				}
 
-			}
-			} 
-			Console.WriteLine ("\n\t\aPlayer A has " + PlayerA + " Points\n" +
-				"\n\tPlayer B has " + PlayerB + " Points.");
-			if (PlayerA > PlayerB) {
-
-				Console.WriteLine ("\nCongradulations Player A, you won!");
-			} else {
-				Console.WriteLine ("\nCongradulations Player B, you won!");
 			}
 		}
 
@@ -114,11 +127,6 @@ namespace WürfelPoker_bsp39
 				Console.WriteLine(sumA = rolling1 + rolling2 + rolling3);
 			} 
 			return resultA;
-
-	
-
-
-
 		} // Ende PlayerA
 
 		// PlayerB Rolling
@@ -138,7 +146,7 @@ namespace WürfelPoker_bsp39
 			}
 			// Fall (b) ein Paar
 			else if ((rolling1 == rolling2 && rolling1 !=rolling3) || (rolling1 == rolling3 && rolling1 != rolling2) || (rolling2 == rolling3 && rolling2 != rolling1)) {
-				Console.WriteLine ("\nPlayer A rolls a pair, nice one");
+				Console.WriteLine ("\nPlayer B rolls a pair, nice one");
 				resultB = 2;
 				Console.WriteLine(sumB = rolling1 + rolling2 + rolling3);
 				Console.WriteLine ("\n\n");
@@ -146,7 +154,7 @@ namespace WürfelPoker_bsp39
 			}
 			// Fall (d) ein Triple
 			else if (rolling1 == rolling2 && rolling1 == rolling3 && rolling2 == rolling3) {
-				Console.WriteLine ("\nPlayer A rolls a triple... wtf");
+				Console.WriteLine ("\nPlayer B rolls a triple... wtf");
 				resultB = 3;
 				Console.WriteLine(sumB = rolling1 + rolling2 + rolling3);
 				Console.WriteLine ("\n\n");
