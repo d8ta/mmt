@@ -2,8 +2,7 @@ using System;
 using System.Linq;
 
 // TODO: Dublikateingabe beim User muss noch her!!
-// TODO: Nach jedem Tip anzeigen wie die Treffeqoute ist!! 
-
+// n mal tips abgeben können
 
 namespace Lotto_bsp38
 {
@@ -11,15 +10,12 @@ namespace Lotto_bsp38
 	{
 
 		static int[] LottoNumbers = new int[6];
-		static int[] UserNumbers = new int[6]; 
+		static int[] UserNumbers = new int[6];
 
 		// Main
 		public static void Main (string[] args)
 		{
-			UserInput ();
-			LottoArray ();
-			Console.WriteLine("\tyour stats are: " + CompareUserAndRandomnum ());
-
+			AmountOfUserTips ();
 		} // Ende Main
 
 
@@ -39,7 +35,7 @@ namespace Lotto_bsp38
 			Random randomNumber = new Random();
 			for (int i = 0; i < LottoNumbers.Length; )
 			{
-				checkForDublicats = randomNumber.Next(1, 46);
+				checkForDublicats = randomNumber.Next(1, 45);
 				while (!(LottoNumbers.Contains(checkForDublicats)))
 				{
 					LottoNumbers[i] = checkForDublicats;
@@ -60,33 +56,46 @@ namespace Lotto_bsp38
 			int userInput;
 			do {
 				inputIsOk = int.TryParse (Console.ReadLine (), out userInput);
-
-				if ((inputIsOk == true) && (userInput >= min) && (userInput <= max))
+				if ((inputIsOk == true) && (userInput >= min) && (userInput <= max)){
 					inputIsOk = true;
-				else {
+				} else {
 					inputIsOk = false;
-					Console.WriteLine ("Please type in a number between 1 and 45");
+					Console.WriteLine ("your input is wrong, please try again");
 				}
 			} while (inputIsOk == false);
 			return userInput;
-		}  // Ende
+		} // Ende
+
+
+
+		// Funktion für n-Tips
+		static void AmountOfUserTips ()
+		{
+			Console.WriteLine ("Type in how many tip you want to do:");
+			int numOfTips = checkUserInput (1, 1000);
+			for (int i = 0; i < numOfTips; i++) {
+				UserInput ();
+				LottoArray ();
+				Console.WriteLine("\tyour stats are: " + CompareUserAndRandomnum ());
+			}
+		}
 
 
 		// Usereingabe Zahl zwischen 1 - 45
 		static void UserInput()
 		{
-			Console.WriteLine ("LOTTO\ntype in your tips (between 1 and 45)\n" +
-			"Push ENTER after every number:");
-			for (int i = 0; i < UserNumbers.Length; i++) 
-			{ 	
-				UserNumbers [i] = checkUserInput (1, 46);
+			Console.WriteLine ("LOTTO\ntype in your numbers (between 1 and 45)\n" +
+				"Push ENTER after every number:");
+			for (int i = 0; i < UserNumbers.Length; i++) { 	
+				UserNumbers [i] = checkUserInput (1, 45);
 			}
+
 			Console.WriteLine ("\nYour numbers are  : ");
 			for (int j = 0; j < UserNumbers.Length; j++) {
-				Console.Write (UserNumbers[j] + ", ");
+				Console.Write (UserNumbers [j] + ", ");
 			}
-		}
-	
+		} // Ende
+
 
 		// Auswertung
 		static int CompareUserAndRandomnum ()
@@ -95,7 +104,7 @@ namespace Lotto_bsp38
 			for (int i = 0; i < LottoNumbers.Length; i++) 
 			{
 				for (int j = 0; j < UserNumbers.Length; j++)
-				 {
+				{
 					if (LottoNumbers[i] == UserNumbers[j]) 
 					{
 						status = status + 1;
