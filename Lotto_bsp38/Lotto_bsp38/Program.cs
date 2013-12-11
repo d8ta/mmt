@@ -90,18 +90,17 @@ namespace Lotto_bsp38
 				int rollNumbers = checkUserInput (1, 45);
 				UserNumbers [i] = rollNumbers;
 				bool dublicat = true;
-				do {                            
+				while (dublicat == true && i != 0){                            
 					dublicat = false;
 					for (int j = 1; j < i + 1; j++){
-						for (int k = j; k < i + 1; k++){
-						if (UserNumbers[j - 1] == UserNumbers[i]) {
+							if (UserNumbers[j - 1] == UserNumbers[i]) {
 							Console.WriteLine("Sie dürfen pro Tipp keine doppelten Zahlen eingeben.\nBitte geben Sie den Tipp nochmal ein.");
 							UserNumbers [i] = rollNumbers;
 							dublicat = true;
-						}
+						
 						}
 					}
-				} while (dublicat == true && i != 0);
+				} 
 			}
 
 			Console.WriteLine ("\nYour numbers are  : ");
