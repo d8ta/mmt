@@ -87,7 +87,21 @@ namespace Lotto_bsp38
 			Console.WriteLine ("LOTTO\ntype in your numbers (between 1 and 45)\n" +
 				"Push ENTER after every number:");
 			for (int i = 0; i < UserNumbers.Length; i++) { 	
-				UserNumbers [i] = checkUserInput (1, 45);
+				int rollNumbers = checkUserInput (1, 45);
+				UserNumbers [i] = rollNumbers;
+				bool dublicat = true;
+				do {                            
+					dublicat = false;
+					for (int j = 1; j < i + 1; j++){
+						for (int k = j; k < i + 1; k++){
+						if (UserNumbers[j - 1] == UserNumbers[i]) {
+							Console.WriteLine("Sie dürfen pro Tipp keine doppelten Zahlen eingeben.\nBitte geben Sie den Tipp nochmal ein.");
+							UserNumbers [i] = rollNumbers;
+							dublicat = true;
+						}
+						}
+					}
+				} while (dublicat == true && i != 0);
 			}
 
 			Console.WriteLine ("\nYour numbers are  : ");
