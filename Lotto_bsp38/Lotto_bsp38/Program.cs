@@ -1,9 +1,6 @@
 using System;
 using System.Linq;
 
-// TODO: Dublikateingabe beim User muss noch her!!
-// n mal tips abgeben können
-
 namespace Lotto_bsp38
 {
 	class MainClass
@@ -80,6 +77,8 @@ namespace Lotto_bsp38
 			}
 		}
 
+		// TODO: infinit loop bei doppelter usereingabe verhindern!!
+
 
 		// Usereingabe Zahl zwischen 1 - 45
 		static void UserInput()
@@ -97,7 +96,6 @@ namespace Lotto_bsp38
 							Console.WriteLine("Sie dürfen pro Tipp keine doppelten Zahlen eingeben.\nBitte geben Sie den Tipp nochmal ein.");
 							UserNumbers [i] = rollNumbers;
 							dublicat = true;
-						
 						}
 					}
 				} 
