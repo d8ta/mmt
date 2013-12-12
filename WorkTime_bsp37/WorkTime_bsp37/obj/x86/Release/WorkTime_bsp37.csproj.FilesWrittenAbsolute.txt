@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/WorkTime_bsp37/WorkTime_bsp37/obj/x86/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/WorkTime_bsp37/WorkTime_bsp37/bin/Release/WorkTime_bsp37.exe.mdb
+/Users/danielraudschus/Projects/WorkTime_bsp37/WorkTime_bsp37/bin/Release/WorkTime_bsp37.exe
+/Users/danielraudschus/Projects/WorkTime_bsp37/WorkTime_bsp37/obj/x86/Release/WorkTime_bsp37.exe
+/Users/danielraudschus/Projects/WorkTime_bsp37/WorkTime_bsp37/obj/x86/Release/WorkTime_bsp37.exe.mdb
