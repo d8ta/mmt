@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Downloads/ue06_popovic/bsp38/Lotto.cs">
+    <Files>
+      <File FileName="SichereEingabe/Program.cs" Line="10" Column="29" />
+      <File FileName="../../Downloads/ue06_popovic/bsp38/Lotto.cs" Line="60" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

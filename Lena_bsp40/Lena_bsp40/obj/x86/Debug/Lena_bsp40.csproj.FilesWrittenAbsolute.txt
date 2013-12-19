@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/Lena_bsp40/Lena_bsp40/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/Lena_bsp40/Lena_bsp40/bin/Debug/Lena_bsp40.exe.mdb
+/Users/danielraudschus/Projects/Lena_bsp40/Lena_bsp40/bin/Debug/Lena_bsp40.exe
+/Users/danielraudschus/Projects/Lena_bsp40/Lena_bsp40/obj/x86/Debug/Lena_bsp40.exe
+/Users/danielraudschus/Projects/Lena_bsp40/Lena_bsp40/obj/x86/Debug/Lena_bsp40.exe.mdb

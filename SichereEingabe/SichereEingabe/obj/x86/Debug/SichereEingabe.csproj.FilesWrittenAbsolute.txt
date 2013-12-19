@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/SichereEingabe/SichereEingabe/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/SichereEingabe/SichereEingabe/bin/Debug/SichereEingabe.exe.mdb
+/Users/danielraudschus/Projects/SichereEingabe/SichereEingabe/bin/Debug/SichereEingabe.exe
+/Users/danielraudschus/Projects/SichereEingabe/SichereEingabe/obj/x86/Debug/SichereEingabe.exe
+/Users/danielraudschus/Projects/SichereEingabe/SichereEingabe/obj/x86/Debug/SichereEingabe.exe.mdb

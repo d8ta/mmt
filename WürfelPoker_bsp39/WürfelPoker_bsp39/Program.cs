@@ -1,3 +1,8 @@
+/* 1310601027, fhs36118
+ * Daniel Raudschus
+ * ue06 bsp38
+ * */
+
 using System;
 
 namespace WürfelPoker_bsp39
@@ -48,7 +53,7 @@ namespace WürfelPoker_bsp39
 		static int RandomGenerator (int min, int max)
 		{
 			Random random = new Random ((int)DateTime.Now.Ticks);
-			return random.Next (min, max);
+			return random.Next (min-1, max);
 		} // Ende
 
 		// Spielrunde
