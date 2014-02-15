@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/objectDemo/objectDemo/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/objectDemo/objectDemo/bin/Debug/objectDemo.exe.mdb
+/Users/danielraudschus/Projects/objectDemo/objectDemo/bin/Debug/objectDemo.exe
+/Users/danielraudschus/Projects/objectDemo/objectDemo/obj/x86/Debug/objectDemo.exe
+/Users/danielraudschus/Projects/objectDemo/objectDemo/obj/x86/Debug/objectDemo.exe.mdb

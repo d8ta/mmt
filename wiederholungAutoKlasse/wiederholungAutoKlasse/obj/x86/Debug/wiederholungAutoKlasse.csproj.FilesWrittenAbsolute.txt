@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/wiederholungAutoKlasse/wiederholungAutoKlasse/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/wiederholungAutoKlasse/wiederholungAutoKlasse/bin/Debug/wiederholungAutoKlasse.exe.mdb
+/Users/danielraudschus/Projects/wiederholungAutoKlasse/wiederholungAutoKlasse/bin/Debug/wiederholungAutoKlasse.exe
+/Users/danielraudschus/Projects/wiederholungAutoKlasse/wiederholungAutoKlasse/obj/x86/Debug/wiederholungAutoKlasse.exe
+/Users/danielraudschus/Projects/wiederholungAutoKlasse/wiederholungAutoKlasse/obj/x86/Debug/wiederholungAutoKlasse.exe.mdb

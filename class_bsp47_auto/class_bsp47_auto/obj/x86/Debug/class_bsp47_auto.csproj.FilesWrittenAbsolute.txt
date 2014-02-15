@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/class_bsp47_auto/class_bsp47_auto/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/class_bsp47_auto/class_bsp47_auto/bin/Debug/class_bsp47_auto.exe.mdb
+/Users/danielraudschus/Projects/class_bsp47_auto/class_bsp47_auto/bin/Debug/class_bsp47_auto.exe
+/Users/danielraudschus/Projects/class_bsp47_auto/class_bsp47_auto/obj/x86/Debug/class_bsp47_auto.exe
+/Users/danielraudschus/Projects/class_bsp47_auto/class_bsp47_auto/obj/x86/Debug/class_bsp47_auto.exe.mdb

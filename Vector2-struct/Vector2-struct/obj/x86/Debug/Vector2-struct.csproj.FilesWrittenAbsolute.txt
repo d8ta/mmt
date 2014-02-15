@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/Vector2-struct/Vector2-struct/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/Vector2-struct/Vector2-struct/bin/Debug/Vector2-struct.exe.mdb
+/Users/danielraudschus/Projects/Vector2-struct/Vector2-struct/bin/Debug/Vector2-struct.exe
+/Users/danielraudschus/Projects/Vector2-struct/Vector2-struct/obj/x86/Debug/Vector2-struct.exe
+/Users/danielraudschus/Projects/Vector2-struct/Vector2-struct/obj/x86/Debug/Vector2-struct.exe.mdb

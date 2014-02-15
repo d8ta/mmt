@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/RadiVector2Bsp/RadiVector2Bsp/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/RadiVector2Bsp/RadiVector2Bsp/bin/Debug/RadiVector2Bsp.exe.mdb
+/Users/danielraudschus/Projects/RadiVector2Bsp/RadiVector2Bsp/bin/Debug/RadiVector2Bsp.exe
+/Users/danielraudschus/Projects/RadiVector2Bsp/RadiVector2Bsp/obj/x86/Debug/RadiVector2Bsp.exe
+/Users/danielraudschus/Projects/RadiVector2Bsp/RadiVector2Bsp/obj/x86/Debug/RadiVector2Bsp.exe.mdb

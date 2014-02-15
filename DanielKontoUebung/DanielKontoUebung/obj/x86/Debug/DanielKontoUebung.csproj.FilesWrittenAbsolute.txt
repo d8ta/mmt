@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/DanielKontoUebung/DanielKontoUebung/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/DanielKontoUebung/DanielKontoUebung/bin/Debug/DanielKontoUebung.exe.mdb
+/Users/danielraudschus/Projects/DanielKontoUebung/DanielKontoUebung/bin/Debug/DanielKontoUebung.exe
+/Users/danielraudschus/Projects/DanielKontoUebung/DanielKontoUebung/obj/x86/Debug/DanielKontoUebung.exe
+/Users/danielraudschus/Projects/DanielKontoUebung/DanielKontoUebung/obj/x86/Debug/DanielKontoUebung.exe.mdb

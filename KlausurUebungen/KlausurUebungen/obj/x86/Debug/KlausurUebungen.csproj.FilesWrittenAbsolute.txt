@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/KlausurUebungen/KlausurUebungen/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/KlausurUebungen/KlausurUebungen/bin/Debug/KlausurUebungen.exe.mdb
+/Users/danielraudschus/Projects/KlausurUebungen/KlausurUebungen/bin/Debug/KlausurUebungen.exe
+/Users/danielraudschus/Projects/KlausurUebungen/KlausurUebungen/obj/x86/Debug/KlausurUebungen.exe
+/Users/danielraudschus/Projects/KlausurUebungen/KlausurUebungen/obj/x86/Debug/KlausurUebungen.exe.mdb

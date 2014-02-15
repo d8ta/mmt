@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/colorTest5/colorTest5/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/colorTest5/colorTest5/bin/Debug/colorTest5.exe.mdb
+/Users/danielraudschus/Projects/colorTest5/colorTest5/bin/Debug/colorTest5.exe
+/Users/danielraudschus/Projects/colorTest5/colorTest5/obj/x86/Debug/colorTest5.exe
+/Users/danielraudschus/Projects/colorTest5/colorTest5/obj/x86/Debug/colorTest5.exe.mdb

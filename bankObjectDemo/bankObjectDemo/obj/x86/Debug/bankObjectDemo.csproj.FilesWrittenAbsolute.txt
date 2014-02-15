@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/bankObjectDemo/bankObjectDemo/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/bankObjectDemo/bankObjectDemo/bin/Debug/bankObjectDemo.exe.mdb
+/Users/danielraudschus/Projects/bankObjectDemo/bankObjectDemo/bin/Debug/bankObjectDemo.exe
+/Users/danielraudschus/Projects/bankObjectDemo/bankObjectDemo/obj/x86/Debug/bankObjectDemo.exe
+/Users/danielraudschus/Projects/bankObjectDemo/bankObjectDemo/obj/x86/Debug/bankObjectDemo.exe.mdb

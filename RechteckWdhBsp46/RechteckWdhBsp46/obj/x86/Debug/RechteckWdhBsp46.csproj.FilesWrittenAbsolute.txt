@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/RechteckWdhBsp46/RechteckWdhBsp46/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/RechteckWdhBsp46/RechteckWdhBsp46/bin/Debug/RechteckWdhBsp46.exe.mdb
+/Users/danielraudschus/Projects/RechteckWdhBsp46/RechteckWdhBsp46/bin/Debug/RechteckWdhBsp46.exe
+/Users/danielraudschus/Projects/RechteckWdhBsp46/RechteckWdhBsp46/obj/x86/Debug/RechteckWdhBsp46.exe
+/Users/danielraudschus/Projects/RechteckWdhBsp46/RechteckWdhBsp46/obj/x86/Debug/RechteckWdhBsp46.exe.mdb

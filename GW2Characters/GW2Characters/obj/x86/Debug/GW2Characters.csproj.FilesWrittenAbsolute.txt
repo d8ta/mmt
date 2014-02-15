@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/GW2Characters/GW2Characters/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/GW2Characters/GW2Characters/bin/Debug/GW2Characters.exe.mdb
+/Users/danielraudschus/Projects/GW2Characters/GW2Characters/bin/Debug/GW2Characters.exe
+/Users/danielraudschus/Projects/GW2Characters/GW2Characters/obj/x86/Debug/GW2Characters.exe
+/Users/danielraudschus/Projects/GW2Characters/GW2Characters/obj/x86/Debug/GW2Characters.exe.mdb

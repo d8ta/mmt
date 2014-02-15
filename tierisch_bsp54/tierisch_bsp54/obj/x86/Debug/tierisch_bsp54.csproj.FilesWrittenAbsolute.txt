@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/tierisch_bsp54/tierisch_bsp54/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/tierisch_bsp54/tierisch_bsp54/bin/Debug/tierisch_bsp54.exe.mdb
+/Users/danielraudschus/Projects/tierisch_bsp54/tierisch_bsp54/bin/Debug/tierisch_bsp54.exe
+/Users/danielraudschus/Projects/tierisch_bsp54/tierisch_bsp54/obj/x86/Debug/tierisch_bsp54.exe
+/Users/danielraudschus/Projects/tierisch_bsp54/tierisch_bsp54/obj/x86/Debug/tierisch_bsp54.exe.mdb

@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/class_bsp46_rechteck/class_bsp46_rechteck/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/class_bsp46_rechteck/class_bsp46_rechteck/bin/Debug/class_bsp46_rechteck.exe.mdb
+/Users/danielraudschus/Projects/class_bsp46_rechteck/class_bsp46_rechteck/bin/Debug/class_bsp46_rechteck.exe
+/Users/danielraudschus/Projects/class_bsp46_rechteck/class_bsp46_rechteck/obj/x86/Debug/class_bsp46_rechteck.exe
+/Users/danielraudschus/Projects/class_bsp46_rechteck/class_bsp46_rechteck/obj/x86/Debug/class_bsp46_rechteck.exe.mdb

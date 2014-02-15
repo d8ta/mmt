@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/SquareAbfragenTest5/SquareAbfragenTest5/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/SquareAbfragenTest5/SquareAbfragenTest5/bin/Debug/SquareAbfragenTest5.exe.mdb
+/Users/danielraudschus/Projects/SquareAbfragenTest5/SquareAbfragenTest5/bin/Debug/SquareAbfragenTest5.exe
+/Users/danielraudschus/Projects/SquareAbfragenTest5/SquareAbfragenTest5/obj/x86/Debug/SquareAbfragenTest5.exe
+/Users/danielraudschus/Projects/SquareAbfragenTest5/SquareAbfragenTest5/obj/x86/Debug/SquareAbfragenTest5.exe.mdb

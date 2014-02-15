@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/ColorProgramm/ColorProgramm/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/ColorProgramm/ColorProgramm/bin/Debug/ColorProgramm.exe.mdb
+/Users/danielraudschus/Projects/ColorProgramm/ColorProgramm/bin/Debug/ColorProgramm.exe
+/Users/danielraudschus/Projects/ColorProgramm/ColorProgramm/obj/x86/Debug/ColorProgramm.exe
+/Users/danielraudschus/Projects/ColorProgramm/ColorProgramm/obj/x86/Debug/ColorProgramm.exe.mdb

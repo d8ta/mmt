@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/ClassToStruct/ClassToStruct/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/ClassToStruct/ClassToStruct/bin/Debug/ClassToStruct.exe.mdb
+/Users/danielraudschus/Projects/ClassToStruct/ClassToStruct/bin/Debug/ClassToStruct.exe
+/Users/danielraudschus/Projects/ClassToStruct/ClassToStruct/obj/x86/Debug/ClassToStruct.exe
+/Users/danielraudschus/Projects/ClassToStruct/ClassToStruct/obj/x86/Debug/ClassToStruct.exe.mdb

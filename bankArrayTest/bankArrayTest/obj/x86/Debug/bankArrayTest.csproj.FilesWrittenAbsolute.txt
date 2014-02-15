@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/bankArrayTest/bankArrayTest/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/bankArrayTest/bankArrayTest/bin/Debug/bankArrayTest.exe.mdb
+/Users/danielraudschus/Projects/bankArrayTest/bankArrayTest/bin/Debug/bankArrayTest.exe
+/Users/danielraudschus/Projects/bankArrayTest/bankArrayTest/obj/x86/Debug/bankArrayTest.exe
+/Users/danielraudschus/Projects/bankArrayTest/bankArrayTest/obj/x86/Debug/bankArrayTest.exe.mdb

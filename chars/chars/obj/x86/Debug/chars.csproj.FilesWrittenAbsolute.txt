@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/chars/chars/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/chars/chars/bin/Debug/chars.exe.mdb
+/Users/danielraudschus/Projects/chars/chars/bin/Debug/chars.exe
+/Users/danielraudschus/Projects/chars/chars/obj/x86/Debug/chars.exe
+/Users/danielraudschus/Projects/chars/chars/obj/x86/Debug/chars.exe.mdb

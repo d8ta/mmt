@@ -1,0 +1,1 @@
+/Users/danielraudschus/Projects/WiederholungKlassenMenschlichesBsp50/WiederholungKlassenMenschlichesBsp50/obj/x86/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs

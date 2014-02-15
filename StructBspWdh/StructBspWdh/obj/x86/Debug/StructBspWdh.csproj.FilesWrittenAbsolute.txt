@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/StructBspWdh/StructBspWdh/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/StructBspWdh/StructBspWdh/bin/Debug/StructBspWdh.exe.mdb
+/Users/danielraudschus/Projects/StructBspWdh/StructBspWdh/bin/Debug/StructBspWdh.exe
+/Users/danielraudschus/Projects/StructBspWdh/StructBspWdh/obj/x86/Debug/StructBspWdh.exe
+/Users/danielraudschus/Projects/StructBspWdh/StructBspWdh/obj/x86/Debug/StructBspWdh.exe.mdb

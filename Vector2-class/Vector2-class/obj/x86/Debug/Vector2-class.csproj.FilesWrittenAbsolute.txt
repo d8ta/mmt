@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/Vector2-class/Vector2-class/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/Vector2-class/Vector2-class/bin/Debug/Vector2-class.exe.mdb
+/Users/danielraudschus/Projects/Vector2-class/Vector2-class/bin/Debug/Vector2-class.exe
+/Users/danielraudschus/Projects/Vector2-class/Vector2-class/obj/x86/Debug/Vector2-class.exe
+/Users/danielraudschus/Projects/Vector2-class/Vector2-class/obj/x86/Debug/Vector2-class.exe.mdb

@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/gameClass/gameClass/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/gameClass/gameClass/bin/Debug/gameClass.exe.mdb
+/Users/danielraudschus/Projects/gameClass/gameClass/bin/Debug/gameClass.exe
+/Users/danielraudschus/Projects/gameClass/gameClass/obj/x86/Debug/gameClass.exe
+/Users/danielraudschus/Projects/gameClass/gameClass/obj/x86/Debug/gameClass.exe.mdb

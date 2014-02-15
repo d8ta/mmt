@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/SparbuchClassWdh/SparbuchClassWdh/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/SparbuchClassWdh/SparbuchClassWdh/bin/Debug/SparbuchClassWdh.exe.mdb
+/Users/danielraudschus/Projects/SparbuchClassWdh/SparbuchClassWdh/bin/Debug/SparbuchClassWdh.exe
+/Users/danielraudschus/Projects/SparbuchClassWdh/SparbuchClassWdh/obj/x86/Debug/SparbuchClassWdh.exe
+/Users/danielraudschus/Projects/SparbuchClassWdh/SparbuchClassWdh/obj/x86/Debug/SparbuchClassWdh.exe.mdb

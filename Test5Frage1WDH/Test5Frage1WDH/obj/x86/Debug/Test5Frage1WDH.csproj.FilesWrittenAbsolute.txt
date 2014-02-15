@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/Test5Frage1WDH/Test5Frage1WDH/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/Test5Frage1WDH/Test5Frage1WDH/bin/Debug/Test5Frage1WDH.exe.mdb
+/Users/danielraudschus/Projects/Test5Frage1WDH/Test5Frage1WDH/bin/Debug/Test5Frage1WDH.exe
+/Users/danielraudschus/Projects/Test5Frage1WDH/Test5Frage1WDH/obj/x86/Debug/Test5Frage1WDH.exe
+/Users/danielraudschus/Projects/Test5Frage1WDH/Test5Frage1WDH/obj/x86/Debug/Test5Frage1WDH.exe.mdb

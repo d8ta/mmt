@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/menschliches_bsp50/menschliches_bsp50/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/menschliches_bsp50/menschliches_bsp50/bin/Debug/menschliches_bsp50.exe.mdb
+/Users/danielraudschus/Projects/menschliches_bsp50/menschliches_bsp50/bin/Debug/menschliches_bsp50.exe
+/Users/danielraudschus/Projects/menschliches_bsp50/menschliches_bsp50/obj/x86/Debug/menschliches_bsp50.exe
+/Users/danielraudschus/Projects/menschliches_bsp50/menschliches_bsp50/obj/x86/Debug/menschliches_bsp50.exe.mdb

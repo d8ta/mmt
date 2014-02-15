@@ -2,17 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Lena_bsp41/Program.cs">
     <Files>
-      <File FileName="Lena_bsp41/Program.cs" Line="80" Column="47" />
+      <File FileName="Lena_bsp41/Program.cs" Line="92" Column="33" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Lena_bsp41" expanded="True">
-            <Node name="Program.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

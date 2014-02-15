@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/AutoWdhBsp47/AutoWdhBsp47/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/AutoWdhBsp47/AutoWdhBsp47/bin/Debug/AutoWdhBsp47.exe.mdb
+/Users/danielraudschus/Projects/AutoWdhBsp47/AutoWdhBsp47/bin/Debug/AutoWdhBsp47.exe
+/Users/danielraudschus/Projects/AutoWdhBsp47/AutoWdhBsp47/obj/x86/Debug/AutoWdhBsp47.exe
+/Users/danielraudschus/Projects/AutoWdhBsp47/AutoWdhBsp47/obj/x86/Debug/AutoWdhBsp47.exe.mdb

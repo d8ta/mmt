@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/ZooTierischesInterface/ZooTierischesInterface/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/ZooTierischesInterface/ZooTierischesInterface/bin/Debug/ZooTierischesInterface.exe.mdb
+/Users/danielraudschus/Projects/ZooTierischesInterface/ZooTierischesInterface/bin/Debug/ZooTierischesInterface.exe
+/Users/danielraudschus/Projects/ZooTierischesInterface/ZooTierischesInterface/obj/x86/Debug/ZooTierischesInterface.exe
+/Users/danielraudschus/Projects/ZooTierischesInterface/ZooTierischesInterface/obj/x86/Debug/ZooTierischesInterface.exe.mdb

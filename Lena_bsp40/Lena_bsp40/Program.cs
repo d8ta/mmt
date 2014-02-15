@@ -36,7 +36,7 @@ class PgmCreatorDemo {
 			}
 		}
 
-		byte[,] readDataAscii; // byte-arraay
+		byte[,] readDataAscii; // byte-array
 		byte[,] readDataBinary;
 		try {
 			// write imgData to P2 file (ascii):
@@ -104,7 +104,7 @@ class PgmCreatorDemo {
 
 				for (int y = 0; y < lenaImgData.GetLength(1); y++)
 				{
-					lenaImgData[lenaImgData.GetLength(0)-x-1, y] = orgData[x,y]; // was macht diese Zeile??
+					lenaImgData[lenaImgData.GetLength(0)-x-1, y] = orgData[x,y];
 				}
 			}
 			PgmCreator.WritePgmFile("/Users/danielraudschus/Documents/ImageProcessing-PGM-Files/lena_gespiegelt.pgm", lenaImgData, PgmType.P5);
@@ -128,7 +128,7 @@ class PgmCreatorDemo {
 			{
 				for (int y = 0; y < lenaImgData.GetLength(1); y++)
 				{
-					lenaImgData[y,lenaImgData.GetLength(0)-1-x] = orgData[x, y]; // was macht diese Zeile??
+					lenaImgData[y,lenaImgData.GetLength(0)-1-x] = orgData[x, y];
 				}
 			}
 			PgmCreator.WritePgmFile("/Users/danielraudschus/Documents/ImageProcessing-PGM-Files/lena_90Links.pgm", lenaImgData, PgmType.P5);

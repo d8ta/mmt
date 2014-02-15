@@ -70,18 +70,18 @@ class PgmCreatorDemo {
 
 		try
 		{
-			for (double i = 0; i < 10; i++) 
+			for (double i = 0; i < 10; i++)
 			{
-				double alpha = i / 10;
+				double alpha = i / 10; // berechnet Transparenz des Bildes
 
 				for (int x = 0; x < lenaImgData.GetLength(0); x++)
 				{
 					for (int y = 0; y < lenaImgData.GetLength(1); y++)
 					{
-						LenaToBaboonSlide[x,y] = (byte)((1 - alpha) * (int)lenaImgData[x,y] + ((alpha)) * (int)Baboon[x,y]);						 
+						LenaToBaboonSlide[x,y] = (byte)((1 - alpha) * (int)lenaImgData[x,y] + ((alpha)) * (int)Baboon[x,y]); // Formel für Überblendung						 
 					}
 				}
-				PgmCreator.WritePgmFile("/Users/danielraudschus/Documents/ImageProcessing-PGM-Files/LenaToBaboon" + (i+1) + ".pgm", LenaToBaboonSlide, PgmType.P5);
+				PgmCreator.WritePgmFile("/Users/danielraudschus/Documents/ImageProcessing-PGM-Files/LenaToBaboon" + (i+1) + ".pgm", LenaToBaboonSlide, PgmType.P5); // erstellt 10 Bilder mit Nummerierung
 
 			}
 			Console.WriteLine("Lena get baboooooned!");
