@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/CountingZeroes/CountingZeroes/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/CountingZeroes/CountingZeroes/bin/Debug/CountingZeroes.exe.mdb
+/Users/danielraudschus/Projects/CountingZeroes/CountingZeroes/bin/Debug/CountingZeroes.exe
+/Users/danielraudschus/Projects/CountingZeroes/CountingZeroes/obj/x86/Debug/CountingZeroes.exe
+/Users/danielraudschus/Projects/CountingZeroes/CountingZeroes/obj/x86/Debug/CountingZeroes.exe.mdb

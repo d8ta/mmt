@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/ArticlesStore_Referenzaufgabe/ArticlesStore_Referenzaufgabe/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/ArticlesStore_Referenzaufgabe/ArticlesStore_Referenzaufgabe/bin/Debug/ArticlesStore_Referenzaufgabe.exe.mdb
+/Users/danielraudschus/Projects/ArticlesStore_Referenzaufgabe/ArticlesStore_Referenzaufgabe/bin/Debug/ArticlesStore_Referenzaufgabe.exe
+/Users/danielraudschus/Projects/ArticlesStore_Referenzaufgabe/ArticlesStore_Referenzaufgabe/obj/x86/Debug/ArticlesStore_Referenzaufgabe.exe
+/Users/danielraudschus/Projects/ArticlesStore_Referenzaufgabe/ArticlesStore_Referenzaufgabe/obj/x86/Debug/ArticlesStore_Referenzaufgabe.exe.mdb

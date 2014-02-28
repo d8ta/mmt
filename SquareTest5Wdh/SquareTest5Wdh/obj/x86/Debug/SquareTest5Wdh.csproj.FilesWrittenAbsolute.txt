@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/SquareTest5Wdh/SquareTest5Wdh/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/SquareTest5Wdh/SquareTest5Wdh/bin/Debug/SquareTest5Wdh.exe.mdb
+/Users/danielraudschus/Projects/SquareTest5Wdh/SquareTest5Wdh/bin/Debug/SquareTest5Wdh.exe
+/Users/danielraudschus/Projects/SquareTest5Wdh/SquareTest5Wdh/obj/x86/Debug/SquareTest5Wdh.exe
+/Users/danielraudschus/Projects/SquareTest5Wdh/SquareTest5Wdh/obj/x86/Debug/SquareTest5Wdh.exe.mdb

@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/A&D/2_RLE/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/A&D/2_RLE/bin/Debug/2_RLE.exe.mdb
+/Users/danielraudschus/Projects/A&D/2_RLE/bin/Debug/2_RLE.exe
+/Users/danielraudschus/Projects/A&D/2_RLE/obj/x86/Debug/2_RLE.exe
+/Users/danielraudschus/Projects/A&D/2_RLE/obj/x86/Debug/2_RLE.exe.mdb

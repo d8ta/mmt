@@ -3,3 +3,8 @@
 /Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/bin/Debug/GeschäftlichesBsp55.exe
 /Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/obj/x86/Debug/GeschäftlichesBsp55.exe
 /Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/obj/x86/Debug/GeschäftlichesBsp55.exe.mdb
+/Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/obj/x86/Debug/GeschäftlichesBsp55.exe
+/Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/obj/x86/Debug/GeschäftlichesBsp55.exe.mdb
+/Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/bin/Debug/GeschäftlichesBsp55.exe.mdb
+/Users/danielraudschus/Projects/GeschäftlichesBsp55/GeschäftlichesBsp55/bin/Debug/GeschäftlichesBsp55.exe

@@ -1,0 +1,5 @@
+/Users/danielraudschus/Projects/1_Artikel_Store/1_Artikel_Store/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/danielraudschus/Projects/1_Artikel_Store/1_Artikel_Store/bin/Debug/1_Artikel_Store.exe.mdb
+/Users/danielraudschus/Projects/1_Artikel_Store/1_Artikel_Store/bin/Debug/1_Artikel_Store.exe
+/Users/danielraudschus/Projects/1_Artikel_Store/1_Artikel_Store/obj/x86/Debug/1_Artikel_Store.exe
+/Users/danielraudschus/Projects/1_Artikel_Store/1_Artikel_Store/obj/x86/Debug/1_Artikel_Store.exe.mdb

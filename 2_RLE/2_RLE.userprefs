@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="2_RLE/Program.cs">
+    <Files>
+      <File FileName="2_RLE/Program.cs" Line="23" Column="50" />
+      <File FileName="../Buchstabenhäufigkeit_Bsp36/Buchstabenhäufigkeit_Bsp36/Program.cs" Line="52" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
